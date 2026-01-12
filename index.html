@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <meta name="description" content="Personal Portfolio Website">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbar-main" data-bs-offset="100">
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top glass" id="navbar-main">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-white" href="#">PORTFOLIO</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon" style="filter: invert(1);"></span>
+            </button>
+            <button id="theme-toggle" class="btn btn-link text-white ms-3 order-lg-last">
+                <i class="bi bi-moon-fill fs-5"></i>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#hero">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#experience">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="d-flex align-items-center justify-content-center vh-100 position-relative">
+        <div class="container text-center position-relative z-index-2">
+            <h5 class="text-uppercase text-primary mb-3 fw-bold">Hello, I'm</h5>
+            <h1 class="display-1 fw-bold mb-4">Muhammed Shabeer</h1>
+            <h2 class="h1 mb-4 text-white">Full Stack .NET Developer</h2>
+            <p class="lead mb-5 mx-auto" style="max-width: 800px;">Over 6 years of experience designing scalable
+                enterprise and SaaS applications. Expert in ASP.NET Core, MVC, C#, and SQL Server.</p>
+            <div class="d-flex justify-content-center gap-3">
+                <a href="#projects" class="btn btn-primary btn-lg">View My Work</a>
+                <a href="#contact" class="btn btn-outline-light btn-lg">Contact Me</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section-padding">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-5 mb-4 mb-lg-0 text-center">
+                    <!-- Profile Image -->
+                    <div class="position-relative d-inline-block">
+                        <div class="rounded-circle p-1 shadow-lg"
+                            style="background: linear-gradient(45deg, var(--primary-color), var(--accent-color));">
+                            <img src="assets/profile.png" alt="Muhammed Shabeer" class="rounded-circle img-fluid"
+                                style="width: 300px; height: 300px; object-fit: cover; border: 5px solid var(--dark-bg);">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <h2 class="mb-4">About Me</h2>
+                    <p class="mb-3">I am a <strong>Full Stack .NET Developer</strong> with a proven track record of
+                        leading cross-functional teams and delivering complex products like HRMS and Social Recruiting
+                        platforms. My expertise lies in building real-time systems, optimizing database performance, and
+                        implementing Gulf-region compliance standards (ZATCA E-Invoicing, NPHIES).</p>
+                    <p class="mb-4">Currently in Qatar with a valid transferable work visa, I specialize in the
+                        Microsoft technology stack, bridging the gap between desktop and modern web applications.</p>
+
+                    <div class="mb-4">
+                        <h5 class="mb-3">Key Skills</h5>
+                        <div class="row g-2">
+                            <div class="col-md-6">
+                                <h6 class="text-primary small text-uppercase fw-bold">Frameworks & Web</h6>
+                                <div class="d-flex flex-wrap gap-1 mb-3">
+                                    <span class="badge bg-dark border border-secondary">ASP.NET Core MVC</span>
+                                    <span class="badge bg-dark border border-secondary">Web API</span>
+                                    <span class="badge bg-dark border border-secondary">Entity Framework</span>
+                                    <span class="badge bg-dark border border-secondary">SignalR</span>
+                                    <span class="badge bg-dark border border-secondary">Javascript / jQuery</span>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <h6 class="text-primary small text-uppercase fw-bold">Database & Desktop</h6>
+                                <div class="d-flex flex-wrap gap-1 mb-3">
+                                    <span class="badge bg-dark border border-secondary">SQL Server</span>
+                                    <span class="badge bg-dark border border-secondary">MySQL</span>
+                                    <span class="badge bg-dark border border-secondary">Stored Procedures</span>
+                                    <span class="badge bg-dark border border-secondary">WPF</span>
+                                    <span class="badge bg-dark border border-secondary">Windows Forms</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-6">
+                            <h6 class="text-primary fw-bold">Location</h6>
+                            <p>Doha, Qatar</p>
+                        </div>
+                        <div class="col-6">
+                            <h6 class="text-primary fw-bold">Education</h6>
+                            <p>BCA, Kalinga University (2018)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section-padding bg-dark-card glass">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h5 class="text-primary fw-bold">My Journey</h5>
+                <h2>Professional Experience</h2>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+
+                    <!-- Job 1 -->
+                    <div class="card mb-4 bg-transparent border-secondary ps-3 border-start-0 border-end-0 border-top-0 border-bottom-0 hover-lift"
+                        style="border-left: 3px solid var(--primary-color) !important;">
+                        <div class="card-body py-2">
+                            <div class="d-flex justify-content-between flex-wrap align-items-start mb-2">
+                                <div>
+                                    <h4 class="card-title text-white mb-0">Calmove Technologies</h4>
+                                    <h5 class="text-primary mb-1">Senior Full Stack Developer (Web & Desktop)</h5>
+                                </div>
+                                <div class="text-end">
+                                    <span class="badge bg-secondary">Nov 2019 - Sep 2025</span>
+                                    <div class="small text-muted mt-1">Trivandrum, India</div>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <span class="badge bg-dark border border-secondary text-light">Web: Corporate HR
+                                    (HRMS)</span>
+                                <span class="badge bg-dark border border-secondary text-light">Desktop: C-MED
+                                    (HMS)</span>
+                            </div>
+                            <ul class="text-muted small">
+                                <li><strong>Technical Lead:</strong> Led a team of 14 (10 Devs, 2 Testers). Provided
+                                    architectural guidance and code reviews.</li>
+                                <li><strong>Web:</strong> Delivered end-to-end HRMS modules (Payroll, Attendance,
+                                    Leave). Improved data access using Entity Framework.</li>
+                                <li><strong>Desktop:</strong> Optimized Hospital Management System (HMS) using VB.NET &
+                                    SQL. Implemented <strong>ZATCA E-Invoicing</strong> (QR/TLV) and NPHIES integration.
+                                </li>
+                                <li><strong>Tech:</strong> C#, ASP.NET Core, VB.NET, WinForms, SignalR, SQL Server.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Job 2 -->
+                    <div class="card mb-4 bg-transparent border-secondary ps-3 border-start-0 border-end-0 border-top-0 border-bottom-0 hover-lift"
+                        style="border-left: 3px solid var(--accent-color) !important;">
+                        <div class="card-body py-2">
+                            <div class="d-flex justify-content-between flex-wrap align-items-start mb-2">
+                                <div>
+                                    <h4 class="card-title text-white mb-0">Nicheton Consulting</h4>
+                                    <h5 class="text-primary mb-1">Senior Full Stack Developer (Remote)</h5>
+                                </div>
+                                <div class="text-end">
+                                    <span class="badge bg-secondary">Apr 2021 - Sep 2025</span>
+                                    <div class="small text-muted mt-1">Bengaluru, India</div>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <span class="badge bg-dark border border-secondary text-light">Product:
+                                    CoHire.com</span>
+                            </div>
+                            <ul class="text-muted small">
+                                <li>Developed and launched <strong>CoHire.com</strong>, a social recruiting SaaS
+                                    platform, alongside a full-time role.</li>
+                                <li>Implemented secure OTP authentication and real-time notifications using
+                                    <strong>SignalR</strong>.
+                                </li>
+                                <li>Built scalable database architecture with high-performance stored procedures.</li>
+                                <li><strong>Tech:</strong> ASP.NET Core, SQL Server, JavaScript, RESTful APIs.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Job 3 -->
+                    <div class="card mb-4 bg-transparent border-secondary ps-3 border-start-0 border-end-0 border-top-0 border-bottom-0 hover-lift"
+                        style="border-left: 3px solid var(--white) !important;">
+                        <div class="card-body py-2">
+                            <div class="d-flex justify-content-between flex-wrap align-items-start mb-2">
+                                <div>
+                                    <h4 class="card-title text-white mb-0">Shenzhen Guangzhongying Machinery</h4>
+                                    <h5 class="text-primary mb-1">Freelance Full Stack Developer (SCADA)</h5>
+                                </div>
+                                <div class="text-end">
+                                    <span class="badge bg-secondary">Feb 2021 - May 2021</span>
+                                    <div class="small text-muted mt-1">Guangdong, China</div>
+                                </div>
+                            </div>
+                            <ul class="text-muted small">
+                                <li>Implemented Omron PLC Host Link protocol (Binary/HEX) for critical equipment
+                                    monitoring.</li>
+                                <li>Developed real-time dashboards and charts for electroplating machine operations.
+                                </li>
+                                <li>Led MySQL database design with normalization and triggers.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section-padding">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h5 class="text-primary fw-bold">Portfolio</h5>
+                <h2>Key Projects</h2>
+            </div>
+            <div class="row g-4">
+                <!-- Project 1 -->
+                <div class="col-md-4">
+                    <div class="card h-100 bg-transparent border-0 glass hover-lift">
+                        <div class="card-body p-4">
+                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                <h4 class="card-title text-white mb-0">CoHire.com</h4>
+                                <i class="bi bi-people-fill text-primary fs-4"></i>
+                            </div>
+                            <h6 class="text-primary mb-3">Social Recruiting SaaS</h6>
+                            <p class="card-text text-muted mb-4 small">A comprehensive social recruiting platform
+                                tailored for the Indian market. Managed end-to-end development including DB
+                                architecture, SignalR notifications, and secure OTP auth.</p>
+                            <div class="mt-auto">
+                                <div class="d-flex gap-2 flex-wrap">
+                                    <span class="badge bg-dark border border-secondary">ASP.NET Core</span>
+                                    <span class="badge bg-dark border border-secondary">SQL Server</span>
+                                    <span class="badge bg-dark border border-secondary">SignalR</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="col-md-4">
+                    <div class="card h-100 bg-transparent border-0 glass hover-lift">
+                        <div class="card-body p-4">
+                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                <h4 class="card-title text-white mb-0">C-MED HMS</h4>
+                                <i class="bi bi-hospital-fill text-primary fs-4"></i>
+                            </div>
+                            <h6 class="text-primary mb-3">Hospital Management System</h6>
+                            <p class="card-text text-muted mb-4 small">A robust desktop HMS handling patient records,
+                                billing, and insurance. Key feature: <strong>ZATCA E-Invoicing</strong> implementation
+                                with TLV QR codes and NPHIES Integration.</p>
+                            <div class="mt-auto">
+                                <div class="d-flex gap-2 flex-wrap">
+                                    <span class="badge bg-dark border border-secondary">VB.NET</span>
+                                    <span class="badge bg-dark border border-secondary">WinForms</span>
+                                    <span class="badge bg-dark border border-secondary">ZATCA</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 3 -->
+                <div class="col-md-4">
+                    <div class="card h-100 bg-transparent border-0 glass hover-lift">
+                        <div class="card-body p-4">
+                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                <h4 class="card-title text-white mb-0">Corporate HR</h4>
+                                <i class="bi bi-buildings-fill text-primary fs-4"></i>
+                            </div>
+                            <h6 class="text-primary mb-3">Enterprise HRMS</h6>
+                            <p class="card-text text-muted mb-4 small">Designed scalable modules for Payroll,
+                                Attendance, and Leave Management. Focused on improving operational efficiency and
+                                accurate processing for corporate clients.</p>
+                            <div class="mt-auto">
+                                <div class="d-flex gap-2 flex-wrap">
+                                    <span class="badge bg-dark border border-secondary">ASP.NET Core</span>
+                                    <span class="badge bg-dark border border-secondary">Entity Framework</span>
+                                    <span class="badge bg-dark border border-secondary">MVC</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section-padding">
+        <div class="container text-center">
+            <h5 class="text-primary fw-bold">Get In Touch</h5>
+            <h2 class="mb-5">Let's Work Together</h2>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="glass p-5 rounded-4">
+                        <form>
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <input type="text"
+                                        class="form-control bg-transparent text-white border-secondary py-3"
+                                        placeholder="Your Name">
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="email"
+                                        class="form-control bg-transparent text-white border-secondary py-3"
+                                        placeholder="Your Email">
+                                </div>
+                                <div class="col-12">
+                                    <textarea class="form-control bg-transparent text-white border-secondary py-3"
+                                        rows="5" placeholder="Message"></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <button type="button" class="btn btn-primary btn-lg w-100 py-3 mt-2">Send
+                                        Message</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-5 d-flex justify-content-center gap-4 align-items-center flex-wrap">
+                <a href="mailto:muhammedshabeerm@hotmail.com"
+                    class="text-white fs-5 text-decoration-none hover-primary"><i class="bi bi-envelope-fill me-2"></i>
+                    muhammedshabeerm@hotmail.com</a>
+                <a href="tel:+97430530362" class="text-white fs-5 text-decoration-none hover-primary"><i
+                        class="bi bi-telephone-fill me-2"></i> +974 30530362</a>
+                <a href="https://linkedin.com/in/muhammed-shabeer" target="_blank"
+                    class="text-white fs-3 hover-primary"><i class="bi bi-linkedin"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-4 text-center border-top border-secondary">
+        <div class="container">
+            <p class="mb-0 text-muted">&copy; 2024 My Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

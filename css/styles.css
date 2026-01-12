@@ -1,0 +1,119 @@
+/* Modern Color Palette - Dark Mode (Default) */
+:root {
+    --primary-color: #4361ee;
+    --secondary-color: #3f37c9;
+    --accent-color: #f72585;
+    --dark-bg: #0b0c10;
+    --dark-card: #1f2833;
+    --light-text: #c5c6c7;
+    --heading-text: #66fcf1;
+    --white: #ffffff;
+    --font-main: 'Outfit', sans-serif;
+    --navbar-bg: rgba(11, 12, 16, 0.2);
+    --navbar-scrolled: rgba(11, 12, 16, 0.95);
+    --card-bg: rgba(255, 255, 255, 0.03);
+    --border-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Light Mode Variables */
+[data-theme="light"] {
+    --dark-bg: #f8f9fa;
+    --dark-card: #ffffff;
+    --light-text: #4a5568;
+    /* Darker gray for readability */
+    --heading-text: #1a202c;
+    --white: #1a202c;
+    /* Invert "white" text to dark gray for light backgrounds */
+    --navbar-bg: rgba(255, 255, 255, 0.85);
+    --navbar-scrolled: rgba(255, 255, 255, 0.98);
+    --card-bg: rgba(0, 0, 0, 0.03);
+    --border-color: rgba(0, 0, 0, 0.1);
+}
+
+/* Adjust text colors based on theme */
+body {
+    background-color: var(--dark-bg);
+    color: var(--light-text);
+    font-family: var(--font-main);
+    overflow-x: hidden;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--white);
+    font-weight: 700;
+}
+
+/* Important Overrides to make Bootstrap utility classes theme-aware */
+.text-white {
+    color: var(--white) !important;
+}
+
+.text-muted {
+    color: var(--light-text) !important;
+}
+
+/* Ensure buttons text remains white in light mode if needed, or follows theme */
+.btn-primary {
+    color: #ffffff !important;
+    /* Always white text on primary button */
+}
+
+.btn-outline-light {
+    color: var(--white);
+    border-color: var(--white);
+}
+
+.btn-outline-light:hover {
+    background-color: var(--white);
+    color: var(--dark-bg);
+}
+
+
+
+a {
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    color: var(--white);
+    padding: 10px 25px;
+    font-weight: 600;
+    border-radius: 50px;
+}
+
+.btn-primary:hover {
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(67, 97, 238, 0.4);
+}
+
+.section-padding {
+    padding: 80px 0;
+}
+
+/* Glassmorphism utility */
+.glass {
+    background: rgba(11, 12, 16, 0.2);
+    /* More transparent initially */
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    transition: all 0.3s ease;
+}
+
+.navbar-scrolled {
+    background: rgba(11, 12, 16, 0.95);
+    /* darker on scroll */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
