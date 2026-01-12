@@ -117,3 +117,32 @@ a {
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
 }
+
+/* Form Control Theming */
+.form-control {
+    color: var(--white);
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 1px solid var(--border-color);
+}
+
+.form-control:focus {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: var(--white);
+    border-color: var(--primary-color);
+    box-shadow: none;
+}
+
+/* Placeholder color needs to adapt */
+.form-control::placeholder {
+    color: var(--light-text);
+    opacity: 0.6;
+}
+
+/* Card titles and subtitles */
+.card-title {
+    color: var(--white);
+}
+
+.card-subtitle {
+    color: var(--light-text);
+}
