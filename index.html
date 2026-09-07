@@ -166,79 +166,447 @@
     <!-- Projects Section -->
     <section id="projects" class="section-padding bg-light">
         <div class="container">
-            <h2 class="section-title">Key Projects</h2>
-            <div class="row g-4">
-                <!-- Project 1 -->
-                <div class="col-md-4 fade-up-element">
+            <h2 class="section-title">Projects & Systems</h2>
+
+            <!-- Category Filter Tabs -->
+            <div class="project-filters">
+                <button class="project-filter-btn active" data-filter="all">All Projects</button>
+                <button class="project-filter-btn" data-filter="filter-ai">Autonomous & AI</button>
+                <button class="project-filter-btn" data-filter="filter-saas">SaaS & Marketplaces</button>
+                <button class="project-filter-btn" data-filter="filter-erp">Enterprise & DB Engines</button>
+                <button class="project-filter-btn" data-filter="filter-iot">Industrial Automation</button>
+                <button class="project-filter-btn" data-filter="filter-web">Healthcare & Digital</button>
+            </div>
+
+            <div class="row g-4" id="project-grid">
+                <!-- Autonomous Systems, AI & Developer Tooling -->
+                <div class="col-lg-4 col-md-6 project-item filter-ai fade-up-element">
                     <div class="project-card">
-                        <div class="p-4">
-                            <h4>Confidential Project</h4>
-                            <p class="text-muted small"><strong>Social Recruiting SaaS</strong></p>
-                            <p class="small text-secondary">A comprehensive social recruiting platform managing
-                                full-stack development (ASP.NET Core, SQL Server, JavaScript).</p>
+                        <div class="project-card-header">
+                            <span class="badge-category cat-ai">Autonomous & AI</span>
+                            <a href="https://github.com/codingsahayi/codingsahayi" target="_blank" class="project-gh-link" title="View Source on GitHub">
+                                <i class="bi bi-github"></i>
+                            </a>
                         </div>
+                        <h4 class="project-title">Coding Sahayi</h4>
+                        <div class="project-tech-list">
+                            <span class="badge-tech">C#</span>
+                            <span class="badge-tech">WinUI 3</span>
+                            <span class="badge-tech">Roslyn AST</span>
+                            <span class="badge-tech">Vector Search</span>
+                            <span class="badge-tech">ConPTY</span>
+                            <span class="badge-tech">MSIX</span>
+                        </div>
+                        <p class="project-scope">Autonomous, local-first C# desktop IDE featuring multi-agent swarm orchestration (architect, coder, verifier, doc agents), Roslyn AST semantic indexing, and ConPTY autonomous repair loops.</p>
                     </div>
                 </div>
-                <!-- Project 2 -->
-                <div class="col-md-4 fade-up-element">
+
+                <div class="col-lg-4 col-md-6 project-item filter-ai fade-up-element">
                     <div class="project-card">
-                        <div class="p-4">
-                            <h4>C-MED HMS</h4>
-                            <p class="text-muted small"><strong>Hospital Management</strong></p>
-                            <p class="small text-secondary">Desktop HMS with ZATCA E-Invoicing and NPHIES integration
-                                using VB.NET & WinForms.</p>
+                        <div class="project-card-header">
+                            <span class="badge-category cat-ai">Computer Vision</span>
                         </div>
+                        <h4 class="project-title">AI Vision & License Plate Recognition</h4>
+                        <div class="project-tech-list">
+                            <span class="badge-tech">Python</span>
+                            <span class="badge-tech">C#</span>
+                            <span class="badge-tech">RTSP Streaming</span>
+                            <span class="badge-tech">Gemini Vision API</span>
+                        </div>
+                        <p class="project-scope">Edge-to-cloud computer vision pipeline ingesting live RTSP video feeds for real-time automated license plate recognition (ALPR/ANPR), vehicle identification, and access-control automation.</p>
                     </div>
                 </div>
-                <!-- Project 3 -->
-                <div class="col-md-4 fade-up-element">
+
+                <!-- On-Demand Services, SaaS & Marketplaces -->
+                <div class="col-lg-4 col-md-6 project-item filter-saas fade-up-element">
                     <div class="project-card">
-                        <div class="p-4">
-                            <h4>Corporate HR</h4>
-                            <p class="text-muted small"><strong>Enterprise HRMS</strong></p>
-                            <p class="small text-secondary">Scalable modules for Payroll, Attendance, and Leave
-                                Management for corporate clients.</p>
+                        <div class="project-card-header">
+                            <span class="badge-category cat-saas">On-Demand SaaS</span>
+                            <a href="https://github.com/MuhammedShabeer/Tuxo" target="_blank" class="project-gh-link" title="View Source on GitHub">
+                                <i class="bi bi-github"></i>
+                            </a>
                         </div>
+                        <h4 class="project-title">Tuxo</h4>
+                        <div class="project-tech-list">
+                            <span class="badge-tech">TypeScript</span>
+                            <span class="badge-tech">Responsive Web</span>
+                            <span class="badge-tech">Location APIs</span>
+                        </div>
+                        <p class="project-scope">Consumer-facing on-demand services discovery and booking application featuring dynamic service cataloging, scheduling, location routing, and automated payment/booking flows.</p>
                     </div>
                 </div>
-                <!-- Project 4 -->
-                <div class="col-md-4 fade-up-element">
+
+                <div class="col-lg-4 col-md-6 project-item filter-saas fade-up-element">
                     <div class="project-card">
-                        <div class="p-4">
-                            <h4>Saffrat Restaurant</h4>
-                            <p class="text-muted small"><strong>Business Solution</strong></p>
-                            <p class="small text-secondary">A comprehensive restaurant management and business solution designed for Saffrat.</p>
+                        <div class="project-card-header">
+                            <span class="badge-category cat-saas">Field Service</span>
+                            <a href="https://github.com/MuhammedShabeer/Tuxo-Professional-App" target="_blank" class="project-gh-link" title="View Source on GitHub">
+                                <i class="bi bi-github"></i>
+                            </a>
                         </div>
+                        <h4 class="project-title">Tuxo Professional App</h4>
+                        <div class="project-tech-list">
+                            <span class="badge-tech">TypeScript</span>
+                            <span class="badge-tech">Mobile Framework</span>
+                            <span class="badge-tech">Route Tracking</span>
+                        </div>
+                        <p class="project-scope">Field service professional management application managing technician dispatch feeds, work-order status lifecycles, route tracking, and provider payout ledgers.</p>
                     </div>
                 </div>
-                <!-- Project 5 -->
-                <div class="col-md-4 fade-up-element">
+
+                <div class="col-lg-4 col-md-6 project-item filter-saas fade-up-element">
                     <div class="project-card">
-                        <div class="p-4">
-                            <h4>CleanNinja</h4>
-                            <p class="text-muted small"><strong>Booking System</strong></p>
-                            <p class="small text-secondary">An efficient booking and scheduling system developed for cleaning services.</p>
+                        <div class="project-card-header">
+                            <span class="badge-category cat-saas">Recruiting SaaS</span>
                         </div>
+                        <h4 class="project-title">CoHire.com</h4>
+                        <div class="project-tech-list">
+                            <span class="badge-tech">ASP.NET Core</span>
+                            <span class="badge-tech">SQL Server</span>
+                            <span class="badge-tech">EF Core</span>
+                            <span class="badge-tech">REST APIs</span>
+                        </div>
+                        <p class="project-scope">Multi-tenant social recruiting SaaS engine featuring automated candidate-job graph matching, recruitment milestone pipelines, role-based access control (RBAC), and analytics dashboards.</p>
                     </div>
                 </div>
-                <!-- Project 6 -->
-                <div class="col-md-4 fade-up-element">
+
+                <div class="col-lg-4 col-md-6 project-item filter-saas fade-up-element">
                     <div class="project-card">
-                        <div class="p-4">
-                            <h4>Tafaw Solutions</h4>
-                            <p class="text-muted small"><strong>Asset Tracking</strong></p>
-                            <p class="small text-secondary">A robust asset tracking and management platform built for Tafaw Solutions.</p>
+                        <div class="project-card-header">
+                            <span class="badge-category cat-saas">Talent Platform</span>
                         </div>
+                        <h4 class="project-title">Maharati Bayt</h4>
+                        <div class="project-tech-list">
+                            <span class="badge-tech">ASP.NET Core</span>
+                            <span class="badge-tech">.NET MAUI</span>
+                            <span class="badge-tech">SQL Server</span>
+                        </div>
+                        <p class="project-scope">Cross-platform fractional talent platform connecting local SMEs with professional women in Qatar, featuring milestone-driven contracts, verification pipelines, and in-app communication.</p>
                     </div>
                 </div>
-                <!-- Project 7 -->
-                <div class="col-md-4 fade-up-element">
+
+                <div class="col-lg-4 col-md-6 project-item filter-saas fade-up-element">
                     <div class="project-card">
-                        <div class="p-4">
-                            <h4>Haven Ridge Daycare</h4>
-                            <p class="text-muted small"><strong>Website</strong></p>
-                            <p class="small text-secondary">A user-friendly, responsive website designed for Haven Ridge Daycare.</p>
+                        <div class="project-card-header">
+                            <span class="badge-category cat-saas">Facilities Dispatch</span>
                         </div>
+                        <h4 class="project-title">Clean Ninja</h4>
+                        <div class="project-tech-list">
+                            <span class="badge-tech">ASP.NET Core MVC</span>
+                            <span class="badge-tech">Angular</span>
+                            <span class="badge-tech">SQL Server</span>
+                        </div>
+                        <p class="project-scope">On-demand cleaning and facilities service dispatch platform with dynamic schedule slotting, geographic service clustering, and automated technician assignment.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 project-item filter-saas fade-up-element">
+                    <div class="project-card">
+                        <div class="project-card-header">
+                            <span class="badge-category cat-saas">Shared Mobility</span>
+                        </div>
+                        <h4 class="project-title">P2P Carpooling Platform</h4>
+                        <div class="project-tech-list">
+                            <span class="badge-tech">ASP.NET Core</span>
+                            <span class="badge-tech">PostgreSQL</span>
+                            <span class="badge-tech">WebSockets</span>
+                            <span class="badge-tech">Geospatial</span>
+                        </div>
+                        <p class="project-scope">Distributed ride-matching architecture supporting route deviation algorithms, seat-locking state machines, WebSockets for live driver-rider tracking, and automated fare splitting.</p>
+                    </div>
+                </div>
+
+                <!-- Enterprise ERP, Operations & Database Engines -->
+                <div class="col-lg-4 col-md-6 project-item filter-erp fade-up-element">
+                    <div class="project-card">
+                        <div class="project-card-header">
+                            <span class="badge-category cat-erp">Enterprise Asset ERP</span>
+                            <a href="https://github.com/MuhammedShabeer/SM-AMS" target="_blank" class="project-gh-link" title="View Source on GitHub">
+                                <i class="bi bi-github"></i>
+                            </a>
+                        </div>
+                        <h4 class="project-title">SM-AMS</h4>
+                        <div class="project-tech-list">
+                            <span class="badge-tech">C#</span>
+                            <span class="badge-tech">.NET</span>
+                            <span class="badge-tech">SqlClient</span>
+                            <span class="badge-tech">SQL Server</span>
+                        </div>
+                        <p class="project-scope">Enterprise administrative and assets management platform providing relational database persistence, compliance audit logs, and granular access management.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 project-item filter-erp fade-up-element">
+                    <div class="project-card">
+                        <div class="project-card-header">
+                            <span class="badge-category cat-erp">POS Terminal</span>
+                            <a href="https://github.com/MuhammedShabeer/Qubex-POS" target="_blank" class="project-gh-link" title="View Source on GitHub">
+                                <i class="bi bi-github"></i>
+                            </a>
+                        </div>
+                        <h4 class="project-title">Qubex-POS</h4>
+                        <div class="project-tech-list">
+                            <span class="badge-tech">Java</span>
+                            <span class="badge-tech">Relational DB</span>
+                            <span class="badge-tech">Hardware POS</span>
+                        </div>
+                        <p class="project-scope">Desktop Point-of-Sale terminal application handling high-throughput retail/hospitality checkouts, barcode scanning, cash drawer/receipt hardware integration, and offline-capable sales auditing.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 project-item filter-erp fade-up-element">
+                    <div class="project-card">
+                        <div class="project-card-header">
+                            <span class="badge-category cat-erp">Automotive ERP</span>
+                            <a href="https://github.com/MuhammedShabeer/GarageManagement" target="_blank" class="project-gh-link" title="View Source on GitHub">
+                                <i class="bi bi-github"></i>
+                            </a>
+                        </div>
+                        <h4 class="project-title">GarageManagement</h4>
+                        <div class="project-tech-list">
+                            <span class="badge-tech">T-SQL</span>
+                            <span class="badge-tech">SQL Server</span>
+                            <span class="badge-tech">Inventory Engine</span>
+                        </div>
+                        <p class="project-scope">Core relational database architecture for auto repair centers and fleet garages, handling vehicle repair histories, work orders, parts inventory deductions, and labor cost tracking.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 project-item filter-erp fade-up-element">
+                    <div class="project-card">
+                        <div class="project-card-header">
+                            <span class="badge-category cat-erp">Retail Operations</span>
+                            <a href="https://github.com/MuhammedShabeer/TailorsManagement" target="_blank" class="project-gh-link" title="View Source on GitHub">
+                                <i class="bi bi-github"></i>
+                            </a>
+                        </div>
+                        <h4 class="project-title">TailorsManagement</h4>
+                        <div class="project-tech-list">
+                            <span class="badge-tech">HTML</span>
+                            <span class="badge-tech">JavaScript</span>
+                            <span class="badge-tech">CSS3</span>
+                        </div>
+                        <p class="project-scope">Custom tailoring and boutique shop operations system managing client measurement records, fabric allocations, alteration tracking, and delivery timelines.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 project-item filter-erp fade-up-element">
+                    <div class="project-card">
+                        <div class="project-card-header">
+                            <span class="badge-category cat-erp">Database Engine</span>
+                            <a href="https://github.com/MuhammedShabeer/Saffrat" target="_blank" class="project-gh-link" title="View Source on GitHub">
+                                <i class="bi bi-github"></i>
+                            </a>
+                        </div>
+                        <h4 class="project-title">Saffrat Engine</h4>
+                        <div class="project-tech-list">
+                            <span class="badge-tech">T-SQL</span>
+                            <span class="badge-tech">SQL Server</span>
+                            <span class="badge-tech">Stored Procedures</span>
+                        </div>
+                        <p class="project-scope">High-performance transactional database architecture featuring normalized schemas, optimized stored procedures, indexed ledger records, and automated financial auditing.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 project-item filter-erp fade-up-element">
+                    <div class="project-card">
+                        <div class="project-card-header">
+                            <span class="badge-category cat-erp">Sales CRM</span>
+                            <a href="https://github.com/MuhammedShabeer/SpectronCRM" target="_blank" class="project-gh-link" title="View Source on GitHub">
+                                <i class="bi bi-github"></i>
+                            </a>
+                        </div>
+                        <h4 class="project-title">SpectronCRM</h4>
+                        <div class="project-tech-list">
+                            <span class="badge-tech">HTML5</span>
+                            <span class="badge-tech">Web Components</span>
+                            <span class="badge-tech">JavaScript</span>
+                        </div>
+                        <p class="project-scope">Sales pipeline and client relationship management interface featuring lead stage progression, interaction timelines, and scheduled customer follow-up actions.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 project-item filter-erp fade-up-element">
+                    <div class="project-card">
+                        <div class="project-card-header">
+                            <span class="badge-category cat-erp">FinTech Clearing</span>
+                        </div>
+                        <h4 class="project-title">Cheque Management & Clearing System</h4>
+                        <div class="project-tech-list">
+                            <span class="badge-tech">C#</span>
+                            <span class="badge-tech">ASP.NET</span>
+                            <span class="badge-tech">SQL Server</span>
+                        </div>
+                        <p class="project-scope">Financial verification system handling cheque transaction auditing, clearing/bounce state-machine workflows, image verification, and accounting ledger reconciliations.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 project-item filter-erp fade-up-element">
+                    <div class="project-card">
+                        <div class="project-card-header">
+                            <span class="badge-category cat-erp">Pharmacy ERP</span>
+                        </div>
+                        <h4 class="project-title">PharmaX Suite</h4>
+                        <div class="project-tech-list">
+                            <span class="badge-tech">C#</span>
+                            <span class="badge-tech">ASP.NET Core MVC</span>
+                            <span class="badge-tech">SQL Server</span>
+                        </div>
+                        <p class="project-scope">Pharmacy ERP system handling batch inventory tracking, prescription billing, automated expiry alerts, and multi-tier POS synchronization.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 project-item filter-erp fade-up-element">
+                    <div class="project-card">
+                        <div class="project-card-header">
+                            <span class="badge-category cat-erp">Enterprise HRMS</span>
+                        </div>
+                        <h4 class="project-title">Corporate HR (HRMS)</h4>
+                        <div class="project-tech-list">
+                            <span class="badge-tech">ASP.NET Core</span>
+                            <span class="badge-tech">Entity Framework</span>
+                            <span class="badge-tech">SQL Server</span>
+                        </div>
+                        <p class="project-scope">Enterprise HRMS modules for Payroll, Attendance, and Leave Management with scheduled API orchestration, background worker tasks, and live status notifications.</p>
+                    </div>
+                </div>
+
+                <!-- Industrial Automation & Telemetry Systems -->
+                <div class="col-lg-4 col-md-6 project-item filter-iot fade-up-element">
+                    <div class="project-card">
+                        <div class="project-card-header">
+                            <span class="badge-category cat-iot">SCADA & Telemetry</span>
+                            <a href="https://github.com/MuhammedShabeer/Electroplating-equipment-monitoring-system" target="_blank" class="project-gh-link" title="View Source on GitHub">
+                                <i class="bi bi-github"></i>
+                            </a>
+                        </div>
+                        <h4 class="project-title">Electroplating Telemetry System</h4>
+                        <div class="project-tech-list">
+                            <span class="badge-tech">VB.NET</span>
+                            <span class="badge-tech">PLC Host Link</span>
+                            <span class="badge-tech">TCP/IP</span>
+                        </div>
+                        <p class="project-scope">Industrial SCADA-style equipment telemetry application capturing real-time bath temperatures, rectifier voltage/amperage, threshold alarms, and compliance log generation.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 project-item filter-iot fade-up-element">
+                    <div class="project-card">
+                        <div class="project-card-header">
+                            <span class="badge-category cat-iot">Serial COM & IoT</span>
+                            <a href="https://github.com/MuhammedShabeer/Electroplating-equipment-monitoring-system-VB6" target="_blank" class="project-gh-link" title="View Source on GitHub">
+                                <i class="bi bi-github"></i>
+                            </a>
+                        </div>
+                        <h4 class="project-title">Electroplating Monitoring (VB6)</h4>
+                        <div class="project-tech-list">
+                            <span class="badge-tech">VBA / VB6</span>
+                            <span class="badge-tech">Serial COM</span>
+                            <span class="badge-tech">Hardware I/O</span>
+                        </div>
+                        <p class="project-scope">Legacy hardware interface layer capturing sensor streams and electroplating metrics directly over serial communication protocols for real-time equipment diagnostics.</p>
+                    </div>
+                </div>
+
+                <!-- Healthcare, Community & Digital Platforms -->
+                <div class="col-lg-4 col-md-6 project-item filter-web fade-up-element">
+                    <div class="project-card">
+                        <div class="project-card-header">
+                            <span class="badge-category cat-web">Healthcare & Compliance</span>
+                        </div>
+                        <h4 class="project-title">C-MED Hospital Management System</h4>
+                        <div class="project-tech-list">
+                            <span class="badge-tech">VB.NET</span>
+                            <span class="badge-tech">WinForms</span>
+                            <span class="badge-tech">SQL Server</span>
+                            <span class="badge-tech">ZATCA</span>
+                        </div>
+                        <p class="project-scope">Desktop HMS featuring Saudi E-Invoice (ZATCA Phase 2) compliance via TLV QR codes, NPHIES healthcare data exchange, patient records, appointments, and billing.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 project-item filter-web fade-up-element">
+                    <div class="project-card">
+                        <div class="project-card-header">
+                            <span class="badge-category cat-web">Health Reference</span>
+                            <a href="https://github.com/MuhammedShabeer/medicine-book" target="_blank" class="project-gh-link" title="View Source on GitHub">
+                                <i class="bi bi-github"></i>
+                            </a>
+                        </div>
+                        <h4 class="project-title">Medicine Book</h4>
+                        <div class="project-tech-list">
+                            <span class="badge-tech">JavaScript</span>
+                            <span class="badge-tech">Modern Web</span>
+                            <span class="badge-tech">DOM Engine</span>
+                        </div>
+                        <p class="project-scope">Drug reference database and prescription tracker providing dosage guidelines, medication lookup, active ingredient profiles, and patient intake schedules.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 project-item filter-web fade-up-element">
+                    <div class="project-card">
+                        <div class="project-card-header">
+                            <span class="badge-category cat-web">Education & Portal</span>
+                            <a href="https://github.com/MuhammedShabeer/HavenRidgeDaycare" target="_blank" class="project-gh-link" title="View Source on GitHub">
+                                <i class="bi bi-github"></i>
+                            </a>
+                        </div>
+                        <h4 class="project-title">Haven Ridge Daycare</h4>
+                        <div class="project-tech-list">
+                            <span class="badge-tech">HTML5</span>
+                            <span class="badge-tech">Responsive CSS</span>
+                            <span class="badge-tech">JavaScript</span>
+                        </div>
+                        <p class="project-scope">Childcare center management portal handling student enrollment records, attendance rosters, daily activity tracking, and parent communication.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 project-item filter-web fade-up-element">
+                    <div class="project-card">
+                        <div class="project-card-header">
+                            <span class="badge-category cat-web">IoT & Asset Tracking</span>
+                            <a href="https://github.com/MuhammedShabeer/TafawSolutions" target="_blank" class="project-gh-link" title="View Source on GitHub">
+                                <i class="bi bi-github"></i>
+                            </a>
+                        </div>
+                        <h4 class="project-title">Tafaw Solutions Portal</h4>
+                        <div class="project-tech-list">
+                            <span class="badge-tech">HTML5</span>
+                            <span class="badge-tech">Modern Web UI</span>
+                            <span class="badge-tech">IoT Dashboards</span>
+                        </div>
+                        <p class="project-scope">Web interface and asset tracking dashboard for Tafaw's IoT supply chain monitoring hardware, fleet sensors, and geofenced logistics management.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 project-item filter-web fade-up-element">
+                    <div class="project-card">
+                        <div class="project-card-header">
+                            <span class="badge-category cat-web">Tourism & SEO</span>
+                        </div>
+                        <h4 class="project-title">Visit Creation Safaris Portal</h4>
+                        <div class="project-tech-list">
+                            <span class="badge-tech">Full-Stack Web</span>
+                            <span class="badge-tech">GA4</span>
+                            <span class="badge-tech">Technical SEO</span>
+                            <span class="badge-tech">CRM API</span>
+                        </div>
+                        <p class="project-scope">East African tourism portal optimized for international conversion, responsive itinerary exploration, technical SEO, and automated tour booking inquiries.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 project-item filter-web fade-up-element">
+                    <div class="project-card">
+                        <div class="project-card-header">
+                            <span class="badge-category cat-web">Agency Hub</span>
+                        </div>
+                        <h4 class="project-title">DesignPro Services Hub</h4>
+                        <div class="project-tech-list">
+                            <span class="badge-tech">ASP.NET Core</span>
+                            <span class="badge-tech">Responsive UI</span>
+                            <span class="badge-tech">Workflow API</span>
+                        </div>
+                        <p class="project-scope">Creative design agency workflow hub managing asset delivery, design proofing cycles, client revisions, and milestone billing.</p>
                     </div>
                 </div>
             </div>

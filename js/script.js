@@ -61,3 +61,34 @@ if (btnSendWhatsapp) {
         window.open(whatsappUrl, '_blank');
     });
 }
+
+// Project Category Filtering
+const filterButtons = document.querySelectorAll('.project-filter-btn');
+const projectItems = document.querySelectorAll('.project-item');
+
+if (filterButtons.length > 0) {
+    filterButtons.forEach((btn) => {
+        btn.addEventListener('click', () => {
+            filterButtons.forEach((b) => b.classList.remove('active'));
+            btn.classList.add('active');
+
+            const filterValue = btn.getAttribute('data-filter');
+
+            projectItems.forEach((item) => {
+                if (filterValue === 'all' || item.classList.contains(filterValue)) {
+                    item.style.display = 'block';
+                    setTimeout(() => {
+                        item.style.opacity = '1';
+                        item.style.transform = 'translateY(0)';
+                    }, 30);
+                } else {
+                    item.style.opacity = '0';
+                    item.style.transform = 'translateY(15px)';
+                    setTimeout(() => {
+                        item.style.display = 'none';
+                    }, 250);
+                }
+            });
+        });
+    });
+}
