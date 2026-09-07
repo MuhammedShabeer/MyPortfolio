@@ -220,6 +220,97 @@ a:hover {
     display: inline-block;
 }
 
+.text-accent {
+    color: var(--accent-color) !important;
+}
+
+/* Executive Badge in Hero */
+.hero-executive-badge {
+    display: inline-flex;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 0.35rem 0.95rem;
+    border-radius: 50px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 1.25rem;
+    backdrop-filter: blur(6px);
+}
+
+.hero-executive-badge i {
+    color: var(--accent-color);
+}
+
+/* Executive Bio Box */
+.executive-bio-box {
+    background: #fff;
+    border-left: 5px solid var(--accent-color);
+    padding: 2.25rem 2.5rem;
+    border-radius: 12px;
+    box-shadow: var(--shadow-sm);
+    border-top: 1px solid #e2e8f0;
+    border-right: 1px solid #e2e8f0;
+    border-bottom: 1px solid #e2e8f0;
+    margin-bottom: 3.5rem;
+    position: relative;
+}
+
+.executive-bio-lead {
+    font-size: 1.125rem;
+    color: var(--text-main);
+    line-height: 1.85;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+/* Executive Scope Cards */
+.executive-scope-card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 1.85rem;
+    box-shadow: var(--shadow-sm);
+    border: 1px solid #e2e8f0;
+    height: 100%;
+    transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+    display: flex;
+    flex-direction: column;
+}
+
+.executive-scope-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-md);
+    border-color: #cbd5e1;
+}
+
+.executive-scope-icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 10px;
+    background: rgba(0, 35, 71, 0.08);
+    color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+    margin-bottom: 1.2rem;
+}
+
+.executive-scope-title {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--primary-color);
+    margin-bottom: 0.65rem;
+}
+
+.executive-scope-text {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+
 /* Experience */
 .experience-card {
     background: #fff;
