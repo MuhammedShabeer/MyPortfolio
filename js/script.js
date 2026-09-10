@@ -1,5 +1,5 @@
 /**
- * Executive Portfolio Scripts (2026 Edition)
+ * Executive Portfolio Scripts (2026 Light Theme Edition)
  * Muhammed Shabeer - Partner & CTO
  */
 
@@ -40,7 +40,7 @@ function initPortfolioFilters() {
 
     filterTabs.forEach((tab) => {
         tab.addEventListener('click', () => {
-            // Update ARIA and active class
+            // Update ARIA tabs and active button styling
             filterTabs.forEach((t) => {
                 t.classList.remove('active');
                 t.setAttribute('aria-selected', 'false');
@@ -54,7 +54,7 @@ function initPortfolioFilters() {
             portfolioItems.forEach((item) => {
                 if (selectedFilter === 'all' || item.classList.contains(selectedFilter)) {
                     item.classList.remove('is-hidden');
-                    // Trigger CSS opacity and translate
+                    // Smooth animation frame transition
                     requestAnimationFrame(() => {
                         item.style.opacity = '1';
                         item.style.transform = 'translateY(0)';
@@ -92,7 +92,7 @@ function initContactForm() {
             return;
         }
 
-        // WhatsApp direct URI construction
+        // WhatsApp direct URI payload
         const targetNumber = '97430530362';
         const formattedPayload = `*Executive Strategic Inquiry*\n*Name:* ${name}\n${email ? `*Corporate Email:* ${email}\n` : ''}*Scope / Requirements:* ${message}`;
         const whatsappUrl = `https://wa.me/${targetNumber}?text=${encodeURIComponent(formattedPayload)}`;
@@ -102,7 +102,7 @@ function initContactForm() {
 }
 
 /**
- * Set Dynamic Copyright Year
+ * Dynamic Copyright Year
  */
 function initDynamicYear() {
     const yearSpan = document.getElementById('current-year');
