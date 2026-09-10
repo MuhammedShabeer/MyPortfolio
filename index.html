@@ -6,41 +6,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Muhammed Shabeer | Partner & CTO | Enterprise Solutions Architect</title>
     <meta name="description"
-        content="Muhammed Shabeer - Partner & Chief Technology Officer (CTO) and Enterprise Solutions Architect based in Qatar. Bridging executive business strategy with deep-stack technical execution.">
+        content="Muhammed Shabeer - Partner & Chief Technology Officer (CTO) and Enterprise Solutions Architect in Qatar. Leading application ecosystems, autonomous developer tooling, and commercial enterprise strategy.">
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Open+Sans:wght@400;600&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Open+Sans:wght@400;500;600&display=swap"
         rel="stylesheet">
 
-    <!-- Bootstrap CSS -->
+    <!-- Bootstrap 5.3.2 CSS & Bootstrap Icons -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Bootstrap Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 
-    <!-- Custom CSS -->
+    <!-- Custom Theme Stylesheet -->
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body data-bs-spy="scroll" data-bs-target="#navbar-main" data-bs-offset="100">
 
-    <!-- Navbar -->
+    <!-- Navigation Header -->
     <nav class="navbar navbar-expand-lg fixed-top" id="navbar-main">
         <div class="container">
-            <a class="navbar-brand" href="#">PORTFOLIO</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon" style="filter: invert(1);"></span>
+            <a class="navbar-brand d-flex align-items-center gap-2" href="#hero">
+                <span class="brand-text">M. SHABEER</span>
+                <span class="brand-badge">CTO</span>
+            </a>
+            <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link" href="#hero">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#hero">Overview</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">Executive Profile</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experience">Leadership & Scope</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Systems Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Consultation</a></li>
                 </ul>
             </div>
         </div>
@@ -50,24 +53,26 @@
     <section id="hero">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg-7 hero-text fade-up-element">
+                <div class="col-lg-7 hero-text">
                     <div class="hero-executive-badge">
-                        <i class="bi bi-geo-alt-fill me-1"></i> Qatar &nbsp;|&nbsp; Executive Leadership
+                        <i class="bi bi-geo-alt-fill me-1"></i> Qatar &nbsp;|&nbsp; Executive Leadership & Advisory
                     </div>
                     <h1 class="display-4 fw-bold mb-2">Muhammed Shabeer</h1>
-                    <h2 class="h4 mb-4 text-white opacity-90 fw-semibold">
-                        Partner & Chief Technology Officer (CTO) <span class="text-accent">|</span> Enterprise Solutions Architect
+                    <h2 class="h4 mb-4 text-white fw-semibold hero-role-title">
+                        Partner & Chief Technology Officer <span class="text-accent">|</span> Enterprise Solutions Architect
                     </h2>
-                    <p class="lead mb-5 opacity-90" style="max-width: 640px; line-height: 1.75; font-size: 1.15rem;">
-                        Bridging executive business strategy and deep-stack technical execution—directing end-to-end software application ecosystems, driving commercial sales and marketing, and leading enterprise client engagements from discovery to delivery.
+                    <p class="lead mb-5 hero-description">
+                        Bridging executive business strategy with deep-stack technical execution. Directing comprehensive
+                        software application ecosystems, steering commercial go-to-market initiatives, and leading enterprise
+                        client engagements from discovery through production delivery.
                     </p>
                     <div class="d-flex gap-3 flex-wrap">
                         <a href="#about" class="btn btn-primary">Executive Profile</a>
-                        <a href="#projects" class="btn btn-outline-light">Systems & Architecture</a>
-                        <a href="#contact" class="btn btn-outline-light">Contact Me</a>
+                        <a href="#projects" class="btn btn-outline-light">Systems Architecture</a>
+                        <a href="#contact" class="btn btn-outline-light">Schedule Consultation</a>
                     </div>
                 </div>
-                <div class="col-lg-5 text-center mt-5 mt-lg-0 fade-up-element position-relative">
+                <div class="col-lg-5 text-center mt-5 mt-lg-0 position-relative">
                     <div class="profile-frame">
                         <img src="assets/profile.png" alt="Muhammed Shabeer - Partner & CTO" class="profile-img">
                     </div>
@@ -79,99 +84,106 @@
     <!-- About / Executive Profile Section -->
     <section id="about" class="section-padding bg-light">
         <div class="container">
-            <h2 class="section-title">Executive Profile</h2>
-            
+            <div class="text-center">
+                <h2 class="section-title">Executive Profile</h2>
+            </div>
+
             <!-- Executive Bio -->
-            <div class="executive-bio-box fade-up-element">
+            <div class="executive-bio-box">
                 <div class="d-flex align-items-center mb-3">
                     <i class="bi bi-quote text-accent fs-1 me-2" style="line-height: 1;"></i>
-                    <span class="text-uppercase fw-bold text-muted" style="letter-spacing: 1px; font-size: 0.85rem;">Executive Overview</span>
+                    <span class="text-uppercase fw-bold text-muted tracking-wide" style="font-size: 0.85rem;">Executive Overview</span>
                 </div>
                 <p class="executive-bio-lead">
-                    Partner and Chief Technology Officer at Spectron Solutions Qatar, leading overall technology vision, application architecture, and business expansion. Operating across technical leadership and executive decision-making, I oversee the end-to-end lifecycle of our proprietary software ecosystems, direct sales and marketing initiatives, and lead high-stakes enterprise client negotiations. My background bridges hands-on full-stack engineering and cloud architecture with commercial strategy, ensuring digital products drive operational efficiency and measurable business growth.
+                    Partner and Chief Technology Officer at Spectron Solutions Qatar, directing technology vision,
+                    application architecture, and commercial expansion. Operating across engineering governance and executive
+                    decision-making, I oversee the end-to-end lifecycle of our proprietary software ecosystems, lead
+                    high-stakes enterprise client negotiations, and drive sales and product positioning. My background bridges
+                    hands-on distributed cloud engineering with business strategy, ensuring technology directly accelerates
+                    operational throughput and commercial ROI.
                 </p>
             </div>
 
-            <!-- Core Responsibilities & Executive Scope -->
-            <div class="text-center mb-4 fade-up-element">
-                <h3 class="h4 fw-bold text-primary">Core Responsibilities & Executive Scope</h3>
-                <p class="text-muted small">Strategic governance across technical engineering, commercial alignment, and organizational leadership.</p>
+            <!-- Executive Pillars -->
+            <div class="text-center mb-4">
+                <h3 class="h4 fw-bold text-primary">Core Responsibilities & Strategic Scope</h3>
+                <p class="text-muted small">Governance across platform engineering, commercial alignment, and organizational leadership.</p>
             </div>
 
             <div class="row g-4 mb-5">
-                <div class="col-lg-3 col-md-6 fade-up-element">
+                <div class="col-lg-3 col-md-6">
                     <div class="executive-scope-card">
                         <div class="executive-scope-icon">
                             <i class="bi bi-cpu-fill"></i>
                         </div>
-                        <h4 class="executive-scope-title">Technology & Application Leadership</h4>
-                        <p class="executive-scope-text">Directing the development, architecture, security, and scalability of all software products and platforms across the Spectron Solutions portfolio.</p>
+                        <h4 class="executive-scope-title">Platform & Application Stewardship</h4>
+                        <p class="executive-scope-text">Directing the engineering lifecycle, security posture, and scalability standards across all proprietary application suites.</p>
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-md-6 fade-up-element">
+                <div class="col-lg-3 col-md-6">
                     <div class="executive-scope-card">
                         <div class="executive-scope-icon">
                             <i class="bi bi-shield-check"></i>
                         </div>
                         <h4 class="executive-scope-title">Executive Decision-Making</h4>
-                        <p class="executive-scope-text">Defining strategic technical roadmaps, resource allocation, tooling standards, and organizational policies to support sustainable business scaling.</p>
+                        <p class="executive-scope-text">Authoring technology roadmaps, defining resource allocation, managing vendor relationships, and establishing institutional standards.</p>
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-md-6 fade-up-element">
+                <div class="col-lg-3 col-md-6">
                     <div class="executive-scope-card">
                         <div class="executive-scope-icon">
                             <i class="bi bi-people-fill"></i>
                         </div>
-                        <h4 class="executive-scope-title">Client Engagement & Solutions Engineering</h4>
-                        <p class="executive-scope-text">Leading technical consultations, RFP evaluations, high-level client discovery sessions, and tailored product demos for regional enterprises and government stakeholders.</p>
+                        <h4 class="executive-scope-title">Client Advisory & Pre-Sales</h4>
+                        <p class="executive-scope-text">Leading technical evaluations, RFP bids, and high-level architectural discovery sessions for private enterprises and institutional partners.</p>
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-md-6 fade-up-element">
+                <div class="col-lg-3 col-md-6">
                     <div class="executive-scope-card">
                         <div class="executive-scope-icon">
                             <i class="bi bi-graph-up-arrow"></i>
                         </div>
-                        <h4 class="executive-scope-title">Sales & Commercial Strategy</h4>
-                        <p class="executive-scope-text">Aligning software capabilities with market demand across Qatar, overseeing product positioning, marketing funnels, and enterprise deal closures.</p>
+                        <h4 class="executive-scope-title">Commercial Go-To-Market</h4>
+                        <p class="executive-scope-text">Translating technical capabilities into market solutions across Qatar, structuring software distribution agreements, and driving revenue growth.</p>
                     </div>
                 </div>
             </div>
 
-            <!-- Technical Expertise -->
-            <div class="text-center mb-4 fade-up-element">
-                <h3 class="h4 fw-bold text-primary">Technical Depth & Architectural Stack</h3>
+            <!-- Technical Depth Cards -->
+            <div class="text-center mb-4">
+                <h3 class="h4 fw-bold text-primary">Technical Stacks & Engineering Domains</h3>
             </div>
             <div class="row g-4">
-                <div class="col-md-6 fade-up-element">
+                <div class="col-md-6">
                     <div class="skill-card">
-                        <h5>Frameworks, Cloud & Distributed Systems</h5>
-                        <div>
+                        <h5>Distributed Systems, Cloud & Autonomous AI</h5>
+                        <div class="d-flex flex-wrap gap-2 justify-content-center">
                             <span class="badge-skill">ASP.NET Core</span>
-                            <span class="badge-skill">Microservices & Web APIs</span>
                             <span class="badge-skill">C# / .NET Ecosystem</span>
-                            <span class="badge-skill">Cloud & Docker</span>
-                            <span class="badge-skill">SignalR & Real-Time</span>
-                            <span class="badge-skill">RESTful Architectures</span>
-                            <span class="badge-skill">Modern Frontend & JS</span>
-                            <span class="badge-skill">Bootstrap & Tailwind</span>
+                            <span class="badge-skill">Microservices & Web APIs</span>
+                            <span class="badge-skill">Roslyn AST & Multi-Agent Swarms</span>
+                            <span class="badge-skill">Vector Search & AI Tooling</span>
+                            <span class="badge-skill">Docker & Cloud Architecture</span>
+                            <span class="badge-skill">SignalR Real-Time Pipelines</span>
+                            <span class="badge-skill">Modern Frontend & TypeScript</span>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 fade-up-element">
+                <div class="col-md-6">
                     <div class="skill-card">
-                        <h5>Database Engines, Desktop & Hardware SCADA</h5>
-                        <div>
+                        <h5>Transactional Databases, SCADA & Enterprise Compliance</h5>
+                        <div class="d-flex flex-wrap gap-2 justify-content-center">
                             <span class="badge-skill">SQL Server (T-SQL)</span>
-                            <span class="badge-skill">PostgreSQL & MySQL</span>
+                            <span class="badge-skill">PostgreSQL Architecture</span>
                             <span class="badge-skill">Entity Framework Core</span>
-                            <span class="badge-skill">Performance Tuning & Indexing</span>
+                            <span class="badge-skill">Index Optimization & Tuning</span>
                             <span class="badge-skill">ZATCA Phase 2 E-Invoicing</span>
-                            <span class="badge-skill">WPF & WinForms</span>
-                            <span class="badge-skill">Industrial Telemetry & SCADA</span>
-                            <span class="badge-skill">PLC & Serial Protocols</span>
+                            <span class="badge-skill">NPHIES Healthcare Exchange</span>
+                            <span class="badge-skill">Industrial SCADA & Telemetry</span>
+                            <span class="badge-skill">Omron PLC Host Link Protocols</span>
                         </div>
                     </div>
                 </div>
@@ -179,62 +191,120 @@
         </div>
     </section>
 
-    <!-- Experience Section -->
+    <!-- Experience & Career Leadership Section (Executive Brief Format) -->
     <section id="experience" class="section-padding">
         <div class="container">
-            <h2 class="section-title">Experience</h2>
+            <div class="text-center">
+                <h2 class="section-title">Career Leadership</h2>
+            </div>
             <div class="row justify-content-center">
                 <div class="col-lg-10">
 
-                    <!-- Executive Role -->
-                    <div class="experience-card fade-up-element" style="border-left-color: var(--accent-color);">
-                        <span class="exp-date">Present &nbsp;|&nbsp; Doha, Qatar</span>
-                        <h3 class="exp-company">Spectron Solutions Qatar</h3>
-                        <div class="exp-role text-primary">Partner & Chief Technology Officer (CTO)</div>
-                        <ul class="text-secondary">
-                            <li>Oversee the end-to-end technology vision, application architecture, security, and scalability across the company's proprietary product portfolio.</li>
-                            <li>Direct commercial sales, product positioning, marketing strategies, and enterprise deal closures with regional stakeholders.</li>
-                            <li>Lead executive technical consultations, RFP evaluations, and tailored architecture presentations for enterprise and government clients.</li>
-                        </ul>
+                    <!-- Executive Role: Spectron Solutions -->
+                    <div class="experience-card executive-card">
+                        <div class="exp-header">
+                            <div>
+                                <h3 class="exp-company">Spectron Solutions Qatar</h3>
+                                <div class="exp-role text-primary">Partner & Chief Technology Officer (CTO)</div>
+                            </div>
+                            <span class="exp-date">Present &nbsp;|&nbsp; Doha, Qatar</span>
+                        </div>
+                        <p class="exp-summary">
+                            Leading overarching technological vision, proprietary application portfolios, and regional
+                            commercial scaling. Dual-hatting hands-on software ecosystem stewardship with commercial sales,
+                            marketing alignment, and executive relationship management with major enterprise stakeholders.
+                        </p>
+                        <div class="exp-meta-grid">
+                            <div class="exp-meta-item">
+                                <span class="meta-label">Primary Mandate</span>
+                                <span class="meta-value">Total Portfolio Architecture, P&L Alignment & Engineering Governance</span>
+                            </div>
+                            <div class="exp-meta-item">
+                                <span class="meta-label">Commercial Impact</span>
+                                <span class="meta-value">Enterprise Client Discovery, Strategic RFP Responses & Local Software Distribution</span>
+                            </div>
+                        </div>
                     </div>
 
-                    <!-- Job 1 -->
-                    <div class="experience-card fade-up-element">
-                        <span class="exp-date">Sep 2025 - Present</span>
-                        <h3 class="exp-company">Nicheton Consulting</h3>
-                        <div class="exp-role">Senior Full Stack Developer</div>
-                        <ul class="text-secondary">
-                            <li>Developed and launched, a social recruiting SaaS platform
-                                (ASP.NET Core, SQL, JS).</li>
-                            <li>Implemented secure OTP authentication and real-time SignalR notifications.</li>
-                            <li>Designed scalable DB architecture and optimized stored procedures for high performance.
-                            </li>
-                        </ul>
+                    <!-- Platform Architecture: CoHire.com -->
+                    <div class="experience-card">
+                        <div class="exp-header">
+                            <div>
+                                <h3 class="exp-company">CoHire.com</h3>
+                                <div class="exp-role">Principal Platform Architect & Lead Full-Stack Engineer <span class="text-muted fw-normal fs-6">(Venture Delivery)</span></div>
+                            </div>
+                            <span class="exp-date">Sep 2025 – Present &nbsp;|&nbsp; Remote / Consulting</span>
+                        </div>
+                        <p class="exp-summary">
+                            Architected and delivered the foundational multi-tenant software ecosystem for CoHire, a collaborative
+                            social hiring platform engineered to replace traditional job boards with community-powered talent networks.
+                            Directed full-cycle technical execution—designing the distributed ASP.NET Core backend, high-throughput
+                            relational database models, and real-time interaction pipelines that power referral-based candidate discovery.
+                        </p>
+                        <div class="exp-meta-grid">
+                            <div class="exp-meta-item">
+                                <span class="meta-label">Architectural Mandate</span>
+                                <span class="meta-value">ASP.NET Core REST APIs, Multi-Tenant Database Schemas & SignalR Notifications</span>
+                            </div>
+                            <div class="exp-meta-item">
+                                <span class="meta-label">Platform Impact</span>
+                                <span class="meta-value">High-throughput candidate-matching graph algorithms and enterprise recruiter dashboards</span>
+                            </div>
+                        </div>
                     </div>
 
-                    <!-- Job 2 -->
-                    <div class="experience-card fade-up-element">
-                        <span class="exp-date">Nov 2019 - Sep 2025</span>
-                        <h3 class="exp-company">Calmove Technologies</h3>
-                        <div class="exp-role">Senior Full Stack Developer</div>
-                        <ul class="text-secondary">
-                            <li><strong>Web:</strong> Led team of 14 for end-to-end HRMS modules (Payroll, Attendance).
-                                Code reviews & architecture.</li>
-                            <li><strong>Desktop:</strong> Implemented Saudi E-Invoice (ZATCA) integration (QR/TLV) and
-                                NPHIES compliance.</li>
-                            <li>Optimized Hospital Management System (HMS) using VB.NET & SQL Server.</li>
-                        </ul>
+                    <!-- Enterprise Systems: Calmove Technologies -->
+                    <div class="experience-card">
+                        <div class="exp-header">
+                            <div>
+                                <h3 class="exp-company">Calmove Technologies</h3>
+                                <div class="exp-role">Engineering Lead & Systems Architect</div>
+                            </div>
+                            <span class="exp-date">Nov 2019 – Sep 2025</span>
+                        </div>
+                        <p class="exp-summary">
+                            Directed a 14-engineer cross-functional team engineering mission-critical enterprise HRMS suites,
+                            covering complex payroll calculations, biometric attendance processing, and regulatory compliance.
+                            Engineered regional integration layers including Saudi Arabia's ZATCA Phase 2 E-Invoicing standards
+                            (TLV QR encoding) and the NPHIES unified healthcare data exchange for hospital management systems.
+                        </p>
+                        <div class="exp-meta-grid">
+                            <div class="exp-meta-item">
+                                <span class="meta-label">Technical Ownership</span>
+                                <span class="meta-value">Enterprise HRMS, Regional Regulatory E-Invoicing & Healthcare Telemetry</span>
+                            </div>
+                            <div class="exp-meta-item">
+                                <span class="meta-label">Team & Scale</span>
+                                <span class="meta-value">Mentored and managed 14 engineers across architectural reviews and production deployments</span>
+                            </div>
+                        </div>
                     </div>
 
-                    <!-- Job 3 -->
-                    <div class="experience-card fade-up-element">
-                        <span class="exp-date">Feb 2021 - May 2021</span>
-                        <h3 class="exp-company">Shenzhen Guangzhongying Machinery</h3>
-                        <div class="exp-role">Freelance Full Stack Developer</div>
-                        <ul class="text-secondary">
-                            <li>Implemented Omron PLC Host Link protocol (Binary/HEX) for machine monitoring.</li>
-                            <li>Created real-time SCADA dashboards and optimized MySQL database triggers.</li>
-                        </ul>
+                    <!-- Industrial SCADA: Shenzhen Guangzhongying Machinery -->
+                    <div class="experience-card">
+                        <div class="exp-header">
+                            <div>
+                                <h3 class="exp-company">Shenzhen Guangzhongying Machinery</h3>
+                                <div class="exp-role">Industrial Automation & SCADA Consultant</div>
+                            </div>
+                            <span class="exp-date">Feb 2021 – May 2021</span>
+                        </div>
+                        <p class="exp-summary">
+                            Designed and deployed industrial supervisory control and data acquisition (SCADA) telemetry interfaces
+                            for machinery production lines. Implemented low-level Omron PLC Host Link protocols across binary/hexadecimal
+                            serial and network communication channels, establishing real-time hardware telemetry visualization and
+                            automated database alerting triggers.
+                        </p>
+                        <div class="exp-meta-grid">
+                            <div class="exp-meta-item">
+                                <span class="meta-label">Engineering Domain</span>
+                                <span class="meta-value">PLC Host Link Protocols, Industrial Serial Hardware I/O & Real-Time Dashboards</span>
+                            </div>
+                            <div class="exp-meta-item">
+                                <span class="meta-label">Operational Outcome</span>
+                                <span class="meta-value">Sub-second hardware anomaly detection, telemetry logging, and automated fault recovery</span>
+                            </div>
+                        </div>
                     </div>
 
                 </div>
@@ -242,391 +312,444 @@
         </div>
     </section>
 
-    <!-- Projects Section -->
+    <!-- Comprehensive Projects & Systems Section -->
     <section id="projects" class="section-padding bg-light">
         <div class="container">
-            <h2 class="section-title">Projects & Systems</h2>
+            <div class="text-center">
+                <h2 class="section-title">Systems & Applications Portfolio</h2>
+            </div>
 
-            <!-- Category Filter Tabs -->
-            <div class="project-filters">
-                <button class="project-filter-btn active" data-filter="all">All Projects</button>
-                <button class="project-filter-btn" data-filter="filter-ai">Autonomous & AI</button>
-                <button class="project-filter-btn" data-filter="filter-saas">SaaS & Marketplaces</button>
-                <button class="project-filter-btn" data-filter="filter-erp">Enterprise & DB Engines</button>
-                <button class="project-filter-btn" data-filter="filter-iot">Industrial Automation</button>
-                <button class="project-filter-btn" data-filter="filter-web">Healthcare & Digital</button>
+            <!-- Accessible Category Filter Tabs -->
+            <div class="project-filters" role="tablist" aria-label="Project Categories">
+                <button class="project-filter-btn active" data-filter="all" role="tab" aria-selected="true">All Systems</button>
+                <button class="project-filter-btn" data-filter="filter-ai" role="tab" aria-selected="false">Autonomous & AI</button>
+                <button class="project-filter-btn" data-filter="filter-saas" role="tab" aria-selected="false">SaaS & Marketplaces</button>
+                <button class="project-filter-btn" data-filter="filter-erp" role="tab" aria-selected="false">Enterprise & DB Engines</button>
+                <button class="project-filter-btn" data-filter="filter-iot" role="tab" aria-selected="false">Industrial & IoT</button>
+                <button class="project-filter-btn" data-filter="filter-web" role="tab" aria-selected="false">Healthcare & Web</button>
             </div>
 
             <div class="row g-4" id="project-grid">
-                <!-- Autonomous Systems, AI & Developer Tooling -->
-                <div class="col-lg-4 col-md-6 project-item filter-ai fade-up-element">
+
+                <!-- 1. Coding Sahayi -->
+                <div class="col-lg-4 col-md-6 project-item filter-ai">
                     <div class="project-card">
                         <div class="project-card-header">
-                            <span class="badge-category cat-ai">Autonomous & AI</span>
-                            <a href="https://github.com/codingsahayi/codingsahayi" target="_blank" class="project-gh-link" title="View Source on GitHub">
+                            <span class="badge-category cat-ai">Autonomous AI</span>
+                            <a href="https://github.com/codingsahayi/codingsahayi" target="_blank" rel="noopener" class="project-gh-link" title="GitHub Repository">
                                 <i class="bi bi-github"></i>
                             </a>
                         </div>
-                        <h4 class="project-title">Coding Sahayi</h4>
+                        <h4 class="project-title">Coding Sahayi IDE</h4>
                         <div class="project-tech-list">
                             <span class="badge-tech">C#</span>
                             <span class="badge-tech">WinUI 3</span>
                             <span class="badge-tech">Roslyn AST</span>
-                            <span class="badge-tech">Vector Search</span>
                             <span class="badge-tech">ConPTY</span>
                             <span class="badge-tech">MSIX</span>
                         </div>
-                        <p class="project-scope">Autonomous, local-first C# desktop IDE featuring multi-agent swarm orchestration (architect, coder, verifier, doc agents), Roslyn AST semantic indexing, and ConPTY autonomous repair loops.</p>
+                        <p class="project-scope">Local-first autonomous C# desktop IDE featuring a multi-agent swarm (architecture, code generation, verification, and documentation), semantic workspace indexing, and ConPTY self-repair loops.</p>
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6 project-item filter-ai fade-up-element">
+                <!-- 2. AI Vision & ALPR -->
+                <div class="col-lg-4 col-md-6 project-item filter-ai">
                     <div class="project-card">
                         <div class="project-card-header">
                             <span class="badge-category cat-ai">Computer Vision</span>
                         </div>
-                        <h4 class="project-title">AI Vision & License Plate Recognition</h4>
+                        <h4 class="project-title">AI Vision & License Recognition</h4>
                         <div class="project-tech-list">
                             <span class="badge-tech">Python</span>
                             <span class="badge-tech">C#</span>
-                            <span class="badge-tech">RTSP Streaming</span>
-                            <span class="badge-tech">Gemini Vision API</span>
+                            <span class="badge-tech">RTSP Streams</span>
+                            <span class="badge-tech">Gemini Vision</span>
                         </div>
-                        <p class="project-scope">Edge-to-cloud computer vision pipeline ingesting live RTSP video feeds for real-time automated license plate recognition (ALPR/ANPR), vehicle identification, and access-control automation.</p>
+                        <p class="project-scope">Edge-to-cloud computer vision pipeline processing real-time RTSP video streams for automated license plate recognition (ALPR/ANPR), vehicle identification, and automated gate security triggers.</p>
                     </div>
                 </div>
 
-                <!-- On-Demand Services, SaaS & Marketplaces -->
-                <div class="col-lg-4 col-md-6 project-item filter-saas fade-up-element">
+                <!-- 3. WorldView -->
+                <div class="col-lg-4 col-md-6 project-item filter-ai">
+                    <div class="project-card">
+                        <div class="project-card-header">
+                            <span class="badge-category cat-ai">Geospatial</span>
+                        </div>
+                        <h4 class="project-title">WorldView Spatial Engine</h4>
+                        <div class="project-tech-list">
+                            <span class="badge-tech">JavaScript</span>
+                            <span class="badge-tech">Geospatial APIs</span>
+                            <span class="badge-tech">WebGL</span>
+                        </div>
+                        <p class="project-scope">Interactive geographic data exploration and spatial visualization framework handling layered geospatial coordinate queries and live geographic telemetry visualization.</p>
+                    </div>
+                </div>
+
+                <!-- 4. Tuxo Consumer App -->
+                <div class="col-lg-4 col-md-6 project-item filter-saas">
                     <div class="project-card">
                         <div class="project-card-header">
                             <span class="badge-category cat-saas">On-Demand SaaS</span>
-                            <a href="https://github.com/MuhammedShabeer/Tuxo" target="_blank" class="project-gh-link" title="View Source on GitHub">
+                            <a href="https://github.com/MuhammedShabeer/Tuxo" target="_blank" rel="noopener" class="project-gh-link" title="GitHub Repository">
                                 <i class="bi bi-github"></i>
                             </a>
                         </div>
-                        <h4 class="project-title">Tuxo</h4>
+                        <h4 class="project-title">Tuxo Consumer App</h4>
                         <div class="project-tech-list">
                             <span class="badge-tech">TypeScript</span>
                             <span class="badge-tech">Responsive Web</span>
-                            <span class="badge-tech">Location APIs</span>
+                            <span class="badge-tech">Routing APIs</span>
                         </div>
-                        <p class="project-scope">Consumer-facing on-demand services discovery and booking application featuring dynamic service cataloging, scheduling, location routing, and automated payment/booking flows.</p>
+                        <p class="project-scope">Consumer-facing on-demand service booking ecosystem featuring dynamic catalog browsing, real-time availability scheduling, geolocation-based matching, and automated checkout.</p>
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6 project-item filter-saas fade-up-element">
+                <!-- 5. Tuxo Professional App -->
+                <div class="col-lg-4 col-md-6 project-item filter-saas">
                     <div class="project-card">
                         <div class="project-card-header">
                             <span class="badge-category cat-saas">Field Service</span>
-                            <a href="https://github.com/MuhammedShabeer/Tuxo-Professional-App" target="_blank" class="project-gh-link" title="View Source on GitHub">
+                            <a href="https://github.com/MuhammedShabeer/Tuxo-Professional-App" target="_blank" rel="noopener" class="project-gh-link" title="GitHub Repository">
                                 <i class="bi bi-github"></i>
                             </a>
                         </div>
                         <h4 class="project-title">Tuxo Professional App</h4>
                         <div class="project-tech-list">
                             <span class="badge-tech">TypeScript</span>
-                            <span class="badge-tech">Mobile Framework</span>
-                            <span class="badge-tech">Route Tracking</span>
+                            <span class="badge-tech">Mobile UI</span>
+                            <span class="badge-tech">State Machine</span>
                         </div>
-                        <p class="project-scope">Field service professional management application managing technician dispatch feeds, work-order status lifecycles, route tracking, and provider payout ledgers.</p>
+                        <p class="project-scope">Dedicated practitioner application managing technician dispatch feeds, real-time job stage transitions, service route tracking, and technician payout records.</p>
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6 project-item filter-saas fade-up-element">
+                <!-- 6. CoHire.com Architecture -->
+                <div class="col-lg-4 col-md-6 project-item filter-saas">
                     <div class="project-card">
                         <div class="project-card-header">
-                            <span class="badge-category cat-saas">Recruiting SaaS</span>
+                            <span class="badge-category cat-saas">Social SaaS</span>
                         </div>
-                        <h4 class="project-title">Confidential SaaS Platform</h4>
+                        <h4 class="project-title">CoHire.com Architecture</h4>
                         <div class="project-tech-list">
                             <span class="badge-tech">ASP.NET Core</span>
                             <span class="badge-tech">SQL Server</span>
+                            <span class="badge-tech">SignalR</span>
                             <span class="badge-tech">EF Core</span>
-                            <span class="badge-tech">REST APIs</span>
                         </div>
-                        <p class="project-scope">Multi-tenant social recruiting SaaS engine featuring automated candidate-job graph matching, recruitment milestone pipelines, role-based access control (RBAC), and analytics dashboards.</p>
+                        <p class="project-scope">Multi-tenant collaborative hiring platform featuring candidate-job graph matching, real-time event dispatch, and role-based access control for enterprise recruitment teams.</p>
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6 project-item filter-saas fade-up-element">
+                <!-- 7. Maharati Bayt -->
+                <div class="col-lg-4 col-md-6 project-item filter-saas">
                     <div class="project-card">
                         <div class="project-card-header">
-                            <span class="badge-category cat-saas">Talent Platform</span>
+                            <span class="badge-category cat-saas">Marketplace</span>
                         </div>
-                        <h4 class="project-title">Maharati Bayt</h4>
+                        <h4 class="project-title">Maharati Bayt Platform</h4>
                         <div class="project-tech-list">
                             <span class="badge-tech">ASP.NET Core</span>
                             <span class="badge-tech">.NET MAUI</span>
                             <span class="badge-tech">SQL Server</span>
                         </div>
-                        <p class="project-scope">Cross-platform fractional talent platform connecting local SMEs with professional women in Qatar, featuring milestone-driven contracts, verification pipelines, and in-app communication.</p>
+                        <p class="project-scope">Cross-platform fractional talent platform connecting local SMEs with professional talent in Qatar, featuring milestone-based escrow contracts and regional compliance verification.</p>
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6 project-item filter-saas fade-up-element">
+                <!-- 8. Clean Ninja -->
+                <div class="col-lg-4 col-md-6 project-item filter-saas">
                     <div class="project-card">
                         <div class="project-card-header">
                             <span class="badge-category cat-saas">Facilities Dispatch</span>
                         </div>
-                        <h4 class="project-title">Clean Ninja</h4>
+                        <h4 class="project-title">Clean Ninja Dispatch</h4>
                         <div class="project-tech-list">
                             <span class="badge-tech">ASP.NET Core MVC</span>
                             <span class="badge-tech">Angular</span>
                             <span class="badge-tech">SQL Server</span>
                         </div>
-                        <p class="project-scope">On-demand cleaning and facilities service dispatch platform with dynamic schedule slotting, geographic service clustering, and automated technician assignment.</p>
+                        <p class="project-scope">On-demand facilities service booking engine built with dynamic schedule slotting, geographic service clustering, and automated technician assignment pipelines.</p>
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6 project-item filter-saas fade-up-element">
+                <!-- 9. P2P Carpooling Platform -->
+                <div class="col-lg-4 col-md-6 project-item filter-saas">
                     <div class="project-card">
                         <div class="project-card-header">
-                            <span class="badge-category cat-saas">Shared Mobility</span>
+                            <span class="badge-category cat-saas">Mobility</span>
                         </div>
-                        <h4 class="project-title">P2P Carpooling Platform</h4>
+                        <h4 class="project-title">Distributed Carpooling System</h4>
                         <div class="project-tech-list">
                             <span class="badge-tech">ASP.NET Core</span>
                             <span class="badge-tech">PostgreSQL</span>
                             <span class="badge-tech">WebSockets</span>
-                            <span class="badge-tech">Geospatial</span>
                         </div>
                         <p class="project-scope">Distributed ride-matching architecture supporting route deviation algorithms, seat-locking state machines, WebSockets for live driver-rider tracking, and automated fare splitting.</p>
                     </div>
                 </div>
 
-                <!-- Enterprise ERP, Operations & Database Engines -->
-                <div class="col-lg-4 col-md-6 project-item filter-erp fade-up-element">
+                <!-- 10. SM-AMS -->
+                <div class="col-lg-4 col-md-6 project-item filter-erp">
                     <div class="project-card">
                         <div class="project-card-header">
                             <span class="badge-category cat-erp">Enterprise Asset ERP</span>
-                            <a href="https://github.com/MuhammedShabeer/SM-AMS" target="_blank" class="project-gh-link" title="View Source on GitHub">
+                            <a href="https://github.com/MuhammedShabeer/SM-AMS" target="_blank" rel="noopener" class="project-gh-link" title="GitHub Repository">
                                 <i class="bi bi-github"></i>
                             </a>
                         </div>
-                        <h4 class="project-title">SM-AMS</h4>
+                        <h4 class="project-title">SM-AMS Asset Management</h4>
                         <div class="project-tech-list">
                             <span class="badge-tech">C#</span>
                             <span class="badge-tech">.NET</span>
                             <span class="badge-tech">SqlClient</span>
                             <span class="badge-tech">SQL Server</span>
                         </div>
-                        <p class="project-scope">Enterprise administrative and assets management platform providing relational database persistence, compliance audit logs, and granular access management.</p>
+                        <p class="project-scope">Enterprise administrative and asset management suite delivering direct relational persistence, compliance audit logs, and granular role-based permissions.</p>
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6 project-item filter-erp fade-up-element">
+                <!-- 11. Qubex-POS -->
+                <div class="col-lg-4 col-md-6 project-item filter-erp">
                     <div class="project-card">
                         <div class="project-card-header">
-                            <span class="badge-category cat-erp">POS Terminal</span>
-                            <a href="https://github.com/MuhammedShabeer/Qubex-POS" target="_blank" class="project-gh-link" title="View Source on GitHub">
+                            <span class="badge-category cat-erp">Retail Terminal</span>
+                            <a href="https://github.com/MuhammedShabeer/Qubex-POS" target="_blank" rel="noopener" class="project-gh-link" title="GitHub Repository">
                                 <i class="bi bi-github"></i>
                             </a>
                         </div>
-                        <h4 class="project-title">Qubex-POS</h4>
+                        <h4 class="project-title">Qubex POS Terminal</h4>
                         <div class="project-tech-list">
                             <span class="badge-tech">Java</span>
                             <span class="badge-tech">Relational DB</span>
-                            <span class="badge-tech">Hardware POS</span>
+                            <span class="badge-tech">Hardware I/O</span>
                         </div>
-                        <p class="project-scope">Desktop Point-of-Sale terminal application handling high-throughput retail/hospitality checkouts, barcode scanning, cash drawer/receipt hardware integration, and offline-capable sales auditing.</p>
+                        <p class="project-scope">High-reliability Point-of-Sale desktop terminal application handling barcode billing, receipt printer synchronization, cash drawer triggers, and offline sales auditing.</p>
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6 project-item filter-erp fade-up-element">
+                <!-- 12. GarageManagement -->
+                <div class="col-lg-4 col-md-6 project-item filter-erp">
                     <div class="project-card">
                         <div class="project-card-header">
                             <span class="badge-category cat-erp">Automotive ERP</span>
-                            <a href="https://github.com/MuhammedShabeer/GarageManagement" target="_blank" class="project-gh-link" title="View Source on GitHub">
+                            <a href="https://github.com/MuhammedShabeer/GarageManagement" target="_blank" rel="noopener" class="project-gh-link" title="GitHub Repository">
                                 <i class="bi bi-github"></i>
                             </a>
                         </div>
-                        <h4 class="project-title">GarageManagement</h4>
+                        <h4 class="project-title">GarageManagement DB Engine</h4>
                         <div class="project-tech-list">
                             <span class="badge-tech">T-SQL</span>
                             <span class="badge-tech">SQL Server</span>
-                            <span class="badge-tech">Inventory Engine</span>
+                            <span class="badge-tech">Stored Procs</span>
                         </div>
-                        <p class="project-scope">Core relational database architecture for auto repair centers and fleet garages, handling vehicle repair histories, work orders, parts inventory deductions, and labor cost tracking.</p>
+                        <p class="project-scope">Relational schema and transactional engine managing vehicle work orders, maintenance history archives, parts inventory allocation, and automated billing.</p>
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6 project-item filter-erp fade-up-element">
+                <!-- 13. TailorsManagement -->
+                <div class="col-lg-4 col-md-6 project-item filter-erp">
                     <div class="project-card">
                         <div class="project-card-header">
-                            <span class="badge-category cat-erp">Retail Operations</span>
-                            <a href="https://github.com/MuhammedShabeer/TailorsManagement" target="_blank" class="project-gh-link" title="View Source on GitHub">
+                            <span class="badge-category cat-erp">Operations ERP</span>
+                            <a href="https://github.com/MuhammedShabeer/TailorsManagement" target="_blank" rel="noopener" class="project-gh-link" title="GitHub Repository">
                                 <i class="bi bi-github"></i>
                             </a>
                         </div>
-                        <h4 class="project-title">TailorsManagement</h4>
+                        <h4 class="project-title">TailorsManagement Suite</h4>
                         <div class="project-tech-list">
-                            <span class="badge-tech">HTML</span>
+                            <span class="badge-tech">HTML5</span>
                             <span class="badge-tech">JavaScript</span>
                             <span class="badge-tech">CSS3</span>
                         </div>
-                        <p class="project-scope">Custom tailoring and boutique shop operations system managing client measurement records, fabric allocations, alteration tracking, and delivery timelines.</p>
+                        <p class="project-scope">Boutique and apparel operational system managing bespoke customer body measurements, fabric inventory, tailoring milestones, and delivery scheduling.</p>
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6 project-item filter-erp fade-up-element">
+                <!-- 14. Saffrat Engine -->
+                <div class="col-lg-4 col-md-6 project-item filter-erp">
                     <div class="project-card">
                         <div class="project-card-header">
                             <span class="badge-category cat-erp">Database Engine</span>
-                            <a href="https://github.com/MuhammedShabeer/Saffrat" target="_blank" class="project-gh-link" title="View Source on GitHub">
+                            <a href="https://github.com/MuhammedShabeer/Saffrat" target="_blank" rel="noopener" class="project-gh-link" title="GitHub Repository">
                                 <i class="bi bi-github"></i>
                             </a>
                         </div>
-                        <h4 class="project-title">Saffrat Engine</h4>
+                        <h4 class="project-title">Saffrat Transactional DB</h4>
                         <div class="project-tech-list">
                             <span class="badge-tech">T-SQL</span>
                             <span class="badge-tech">SQL Server</span>
-                            <span class="badge-tech">Stored Procedures</span>
+                            <span class="badge-tech">Database Indexing</span>
                         </div>
-                        <p class="project-scope">High-performance transactional database architecture featuring normalized schemas, optimized stored procedures, indexed ledger records, and automated financial auditing.</p>
+                        <p class="project-scope">Transactional database architecture designed for high-concurrency ledger operations, featuring normalized schemas, optimized stored procedures, and audit triggers.</p>
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6 project-item filter-erp fade-up-element">
+                <!-- 15. SpectronCRM -->
+                <div class="col-lg-4 col-md-6 project-item filter-erp">
                     <div class="project-card">
                         <div class="project-card-header">
-                            <span class="badge-category cat-erp">Sales CRM</span>
-                            <a href="https://github.com/MuhammedShabeer/SpectronCRM" target="_blank" class="project-gh-link" title="View Source on GitHub">
+                            <span class="badge-category cat-erp">Enterprise CRM</span>
+                            <a href="https://github.com/MuhammedShabeer/SpectronCRM" target="_blank" rel="noopener" class="project-gh-link" title="GitHub Repository">
                                 <i class="bi bi-github"></i>
                             </a>
                         </div>
-                        <h4 class="project-title">SpectronCRM</h4>
+                        <h4 class="project-title">SpectronCRM System</h4>
                         <div class="project-tech-list">
                             <span class="badge-tech">HTML5</span>
                             <span class="badge-tech">Web Components</span>
                             <span class="badge-tech">JavaScript</span>
                         </div>
-                        <p class="project-scope">Sales pipeline and client relationship management interface featuring lead stage progression, interaction timelines, and scheduled customer follow-up actions.</p>
+                        <p class="project-scope">Sales pipeline and client lifecycle management platform supporting deal stage progression, customer communication history, and automated commercial task dispatch.</p>
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6 project-item filter-erp fade-up-element">
+                <!-- 16. Cheque Management System -->
+                <div class="col-lg-4 col-md-6 project-item filter-erp">
                     <div class="project-card">
                         <div class="project-card-header">
                             <span class="badge-category cat-erp">FinTech Clearing</span>
                         </div>
-                        <h4 class="project-title">Cheque Management & Clearing System</h4>
+                        <h4 class="project-title">Cheque Clearing System</h4>
                         <div class="project-tech-list">
                             <span class="badge-tech">C#</span>
                             <span class="badge-tech">ASP.NET</span>
                             <span class="badge-tech">SQL Server</span>
                         </div>
-                        <p class="project-scope">Financial verification system handling cheque transaction auditing, clearing/bounce state-machine workflows, image verification, and accounting ledger reconciliations.</p>
+                        <p class="project-scope">Banking operations application governing cheque audit lifecycles, clearing/bounce state-machine transitions, visual verification, and general ledger reconciliations.</p>
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6 project-item filter-erp fade-up-element">
+                <!-- 17. PharmaX Suite -->
+                <div class="col-lg-4 col-md-6 project-item filter-erp">
                     <div class="project-card">
                         <div class="project-card-header">
                             <span class="badge-category cat-erp">Pharmacy ERP</span>
                         </div>
-                        <h4 class="project-title">PharmaX Suite</h4>
+                        <h4 class="project-title">PharmaX Enterprise</h4>
                         <div class="project-tech-list">
                             <span class="badge-tech">C#</span>
                             <span class="badge-tech">ASP.NET Core MVC</span>
                             <span class="badge-tech">SQL Server</span>
                         </div>
-                        <p class="project-scope">Pharmacy ERP system handling batch inventory tracking, prescription billing, automated expiry alerts, and multi-tier POS synchronization.</p>
+                        <p class="project-scope">Pharmaceutical enterprise platform supporting batch and lot tracking, automated expiry notifications, prescription billing workflows, and retail POS synchronization.</p>
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6 project-item filter-erp fade-up-element">
+                <!-- 18. Corporate HRMS -->
+                <div class="col-lg-4 col-md-6 project-item filter-erp">
                     <div class="project-card">
                         <div class="project-card-header">
                             <span class="badge-category cat-erp">Enterprise HRMS</span>
                         </div>
-                        <h4 class="project-title">Corporate HR (HRMS)</h4>
+                        <h4 class="project-title">Corporate HRMS Suite</h4>
                         <div class="project-tech-list">
                             <span class="badge-tech">ASP.NET Core</span>
-                            <span class="badge-tech">Entity Framework</span>
+                            <span class="badge-tech">EF Core</span>
                             <span class="badge-tech">SQL Server</span>
                         </div>
-                        <p class="project-scope">Enterprise HRMS modules for Payroll, Attendance, and Leave Management with scheduled API orchestration, background worker tasks, and live status notifications.</p>
+                        <p class="project-scope">Comprehensive enterprise HRMS managing multi-tiered payroll calculation, attendance and shift scheduling, leave approval chains, and real-time internal notifications.</p>
                     </div>
                 </div>
 
-                <!-- Industrial Automation & Telemetry Systems -->
-                <div class="col-lg-4 col-md-6 project-item filter-iot fade-up-element">
+                <!-- 19. Electroplating Telemetry System (.NET) -->
+                <div class="col-lg-4 col-md-6 project-item filter-iot">
                     <div class="project-card">
                         <div class="project-card-header">
                             <span class="badge-category cat-iot">SCADA & Telemetry</span>
-                            <a href="https://github.com/MuhammedShabeer/Electroplating-equipment-monitoring-system" target="_blank" class="project-gh-link" title="View Source on GitHub">
+                            <a href="https://github.com/MuhammedShabeer/Electroplating-equipment-monitoring-system" target="_blank" rel="noopener" class="project-gh-link" title="GitHub Repository">
                                 <i class="bi bi-github"></i>
                             </a>
                         </div>
-                        <h4 class="project-title">Electroplating Telemetry System</h4>
+                        <h4 class="project-title">Electroplating Monitor (.NET)</h4>
                         <div class="project-tech-list">
                             <span class="badge-tech">VB.NET</span>
                             <span class="badge-tech">PLC Host Link</span>
                             <span class="badge-tech">TCP/IP</span>
                         </div>
-                        <p class="project-scope">Industrial SCADA-style equipment telemetry application capturing real-time bath temperatures, rectifier voltage/amperage, threshold alarms, and compliance log generation.</p>
+                        <p class="project-scope">Industrial SCADA equipment monitoring suite tracking chemical tank temperatures, rectifier voltage/amperage, safety threshold alarms, and compliance reporting.</p>
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6 project-item filter-iot fade-up-element">
+                <!-- 20. Electroplating Telemetry (VB6) -->
+                <div class="col-lg-4 col-md-6 project-item filter-iot">
                     <div class="project-card">
                         <div class="project-card-header">
-                            <span class="badge-category cat-iot">Serial COM & IoT</span>
-                            <a href="https://github.com/MuhammedShabeer/Electroplating-equipment-monitoring-system-VB6" target="_blank" class="project-gh-link" title="View Source on GitHub">
+                            <span class="badge-category cat-iot">Serial Hardware</span>
+                            <a href="https://github.com/MuhammedShabeer/Electroplating-equipment-monitoring-system-VB6" target="_blank" rel="noopener" class="project-gh-link" title="GitHub Repository">
                                 <i class="bi bi-github"></i>
                             </a>
                         </div>
-                        <h4 class="project-title">Electroplating Monitoring (VB6)</h4>
+                        <h4 class="project-title">Electroplating Interface (VB6)</h4>
                         <div class="project-tech-list">
-                            <span class="badge-tech">VBA / VB6</span>
+                            <span class="badge-tech">VB6 / VBA</span>
                             <span class="badge-tech">Serial COM</span>
-                            <span class="badge-tech">Hardware I/O</span>
+                            <span class="badge-tech">Sensor Feeds</span>
                         </div>
-                        <p class="project-scope">Legacy hardware interface layer capturing sensor streams and electroplating metrics directly over serial communication protocols for real-time equipment diagnostics.</p>
+                        <p class="project-scope">Direct serial hardware interface layer processing low-level telemetry streams from industrial manufacturing units for equipment diagnostic tracking.</p>
                     </div>
                 </div>
 
-                <!-- Healthcare, Community & Digital Platforms -->
-                <div class="col-lg-4 col-md-6 project-item filter-web fade-up-element">
+                <!-- 21. Tafaw Solutions IoT Portal -->
+                <div class="col-lg-4 col-md-6 project-item filter-iot">
                     <div class="project-card">
                         <div class="project-card-header">
-                            <span class="badge-category cat-web">Healthcare & Compliance</span>
+                            <span class="badge-category cat-iot">IoT Logistics</span>
+                            <a href="https://github.com/MuhammedShabeer/TafawSolutions" target="_blank" rel="noopener" class="project-gh-link" title="GitHub Repository">
+                                <i class="bi bi-github"></i>
+                            </a>
                         </div>
-                        <h4 class="project-title">C-MED Hospital Management System</h4>
+                        <h4 class="project-title">Tafaw IoT Logistics Portal</h4>
+                        <div class="project-tech-list">
+                            <span class="badge-tech">HTML5</span>
+                            <span class="badge-tech">Telemetry UI</span>
+                            <span class="badge-tech">Asset Tracking</span>
+                        </div>
+                        <p class="project-scope">Web telemetry dashboard and platform interface supporting connected supply chain hardware, real-time cargo tracking, and geofencing event detection.</p>
+                    </div>
+                </div>
+
+                <!-- 22. C-MED HMS -->
+                <div class="col-lg-4 col-md-6 project-item filter-web">
+                    <div class="project-card">
+                        <div class="project-card-header">
+                            <span class="badge-category cat-web">Healthcare</span>
+                        </div>
+                        <h4 class="project-title">C-MED Hospital System</h4>
                         <div class="project-tech-list">
                             <span class="badge-tech">VB.NET</span>
-                            <span class="badge-tech">WinForms</span>
                             <span class="badge-tech">SQL Server</span>
                             <span class="badge-tech">ZATCA</span>
+                            <span class="badge-tech">NPHIES</span>
                         </div>
-                        <p class="project-scope">Desktop HMS featuring Saudi E-Invoice (ZATCA Phase 2) compliance via TLV QR codes, NPHIES healthcare data exchange, patient records, appointments, and billing.</p>
+                        <p class="project-scope">Desktop HMS featuring Saudi ZATCA Phase 2 E-Invoicing integration via TLV QR codes, NPHIES healthcare data exchange, appointment management, and patient billing.</p>
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6 project-item filter-web fade-up-element">
+                <!-- 23. Medicine Book -->
+                <div class="col-lg-4 col-md-6 project-item filter-web">
                     <div class="project-card">
                         <div class="project-card-header">
-                            <span class="badge-category cat-web">Health Reference</span>
-                            <a href="https://github.com/MuhammedShabeer/medicine-book" target="_blank" class="project-gh-link" title="View Source on GitHub">
+                            <span class="badge-category cat-web">Digital Health</span>
+                            <a href="https://github.com/MuhammedShabeer/medicine-book" target="_blank" rel="noopener" class="project-gh-link" title="GitHub Repository">
                                 <i class="bi bi-github"></i>
                             </a>
                         </div>
-                        <h4 class="project-title">Medicine Book</h4>
+                        <h4 class="project-title">Medicine Book Directory</h4>
                         <div class="project-tech-list">
                             <span class="badge-tech">JavaScript</span>
-                            <span class="badge-tech">Modern Web</span>
-                            <span class="badge-tech">DOM Engine</span>
+                            <span class="badge-tech">Modern DOM</span>
+                            <span class="badge-tech">Drug Reference</span>
                         </div>
-                        <p class="project-scope">Drug reference database and prescription tracker providing dosage guidelines, medication lookup, active ingredient profiles, and patient intake schedules.</p>
+                        <p class="project-scope">Clinical drug reference utility providing medication profiles, dosage calculation guidelines, active ingredient indexing, and patient schedule tracking.</p>
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6 project-item filter-web fade-up-element">
+                <!-- 24. Haven Ridge Daycare -->
+                <div class="col-lg-4 col-md-6 project-item filter-web">
                     <div class="project-card">
                         <div class="project-card-header">
-                            <span class="badge-category cat-web">Education & Portal</span>
-                            <a href="https://github.com/MuhammedShabeer/HavenRidgeDaycare" target="_blank" class="project-gh-link" title="View Source on GitHub">
+                            <span class="badge-category cat-web">Community Portal</span>
+                            <a href="https://github.com/MuhammedShabeer/HavenRidgeDaycare" target="_blank" rel="noopener" class="project-gh-link" title="GitHub Repository">
                                 <i class="bi bi-github"></i>
                             </a>
                         </div>
@@ -636,88 +759,78 @@
                             <span class="badge-tech">Responsive CSS</span>
                             <span class="badge-tech">JavaScript</span>
                         </div>
-                        <p class="project-scope">Childcare center management portal handling student enrollment records, attendance rosters, daily activity tracking, and parent communication.</p>
+                        <p class="project-scope">Educational facility operations platform managing child enrollment records, classroom attendance rosters, parent-teacher communications, and event schedules.</p>
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6 project-item filter-web fade-up-element">
-                    <div class="project-card">
-                        <div class="project-card-header">
-                            <span class="badge-category cat-web">IoT & Asset Tracking</span>
-                            <a href="https://github.com/MuhammedShabeer/TafawSolutions" target="_blank" class="project-gh-link" title="View Source on GitHub">
-                                <i class="bi bi-github"></i>
-                            </a>
-                        </div>
-                        <h4 class="project-title">Tafaw Solutions Portal</h4>
-                        <div class="project-tech-list">
-                            <span class="badge-tech">HTML5</span>
-                            <span class="badge-tech">Modern Web UI</span>
-                            <span class="badge-tech">IoT Dashboards</span>
-                        </div>
-                        <p class="project-scope">Web interface and asset tracking dashboard for Tafaw's IoT supply chain monitoring hardware, fleet sensors, and geofenced logistics management.</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 project-item filter-web fade-up-element">
+                <!-- 25. Visit Creation Safaris -->
+                <div class="col-lg-4 col-md-6 project-item filter-web">
                     <div class="project-card">
                         <div class="project-card-header">
                             <span class="badge-category cat-web">Tourism & SEO</span>
                         </div>
-                        <h4 class="project-title">Visit Creation Safaris Portal</h4>
+                        <h4 class="project-title">Visit Creation Safaris</h4>
                         <div class="project-tech-list">
                             <span class="badge-tech">Full-Stack Web</span>
-                            <span class="badge-tech">GA4</span>
                             <span class="badge-tech">Technical SEO</span>
-                            <span class="badge-tech">CRM API</span>
+                            <span class="badge-tech">GA4 Analytics</span>
                         </div>
-                        <p class="project-scope">East African tourism portal optimized for international conversion, responsive itinerary exploration, technical SEO, and automated tour booking inquiries.</p>
+                        <p class="project-scope">East African tour booking and exploration portal engineered with technical SEO, Google Analytics 4 tracking, and direct CRM inquiry integrations.</p>
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6 project-item filter-web fade-up-element">
+                <!-- 26. DesignPro Services Hub -->
+                <div class="col-lg-4 col-md-6 project-item filter-web">
                     <div class="project-card">
                         <div class="project-card-header">
-                            <span class="badge-category cat-web">Agency Hub</span>
+                            <span class="badge-category cat-web">Workflow Hub</span>
                         </div>
                         <h4 class="project-title">DesignPro Services Hub</h4>
                         <div class="project-tech-list">
                             <span class="badge-tech">ASP.NET Core</span>
-                            <span class="badge-tech">Responsive UI</span>
-                            <span class="badge-tech">Workflow API</span>
+                            <span class="badge-tech">Workflow Engine</span>
+                            <span class="badge-tech">Asset Delivery</span>
                         </div>
-                        <p class="project-scope">Creative design agency workflow hub managing asset delivery, design proofing cycles, client revisions, and milestone billing.</p>
+                        <p class="project-scope">Client collaboration and digital asset delivery portal managing design revisions, proofing approval chains, and client milestone invoicing.</p>
                     </div>
                 </div>
+
             </div>
         </div>
     </section>
 
-    <!-- Contact Section -->
+    <!-- Executive Contact & Advisory Section -->
     <section id="contact" class="section-padding">
         <div class="container text-center">
-            <h5 class="text-secondary fw-bold">Get In Touch</h5>
-            <h2 class="mb-5">Let's Work Together</h2>
+            <h5 class="text-secondary fw-bold text-uppercase tracking-wider">Executive Advisory & Inquiries</h5>
+            <h2 class="mb-5">Let's Build Solutions Together</h2>
 
             <div class="row justify-content-center">
                 <div class="col-lg-8">
-                    <div class="bg-light p-5 rounded-4 shadow-sm">
-                        <form>
+                    <div class="bg-light p-5 rounded-4 shadow-sm text-start">
+                        <form id="contact-form">
                             <div class="row g-3">
                                 <div class="col-md-6">
+                                    <label for="contact-name" class="form-label small fw-semibold text-muted">Full Name</label>
                                     <input type="text" id="contact-name" class="form-control py-3"
-                                        placeholder="Your Name">
+                                        placeholder="Your Name" aria-label="Full Name" required>
                                 </div>
                                 <div class="col-md-6">
+                                    <label for="contact-email" class="form-label small fw-semibold text-muted">Business Email</label>
                                     <input type="email" id="contact-email" class="form-control py-3"
-                                        placeholder="Your Email">
+                                        placeholder="name@company.com" aria-label="Business Email">
                                 </div>
                                 <div class="col-12">
+                                    <label for="contact-message" class="form-label small fw-semibold text-muted">Inquiry or Project Scope</label>
                                     <textarea id="contact-message" class="form-control py-3" rows="5"
-                                        placeholder="Message"></textarea>
+                                        placeholder="Describe your technical requirements or strategic goals..."
+                                        aria-label="Inquiry Message" required></textarea>
                                 </div>
                                 <div class="col-12">
-                                    <button type="button" id="btn-send-whatsapp"
-                                        class="btn btn-primary btn-lg w-100 py-3 mt-2">Send Message</button>
+                                    <button type="submit" id="btn-send-whatsapp"
+                                        class="btn btn-primary btn-lg w-100 py-3 mt-2">
+                                        <i class="bi bi-whatsapp me-2"></i> Send Direct Inquiry
+                                    </button>
                                 </div>
                             </div>
                         </form>
@@ -725,15 +838,20 @@
                 </div>
             </div>
 
+            <!-- Direct Contact Links -->
             <div class="mt-5 d-flex justify-content-center gap-4 align-items-center flex-wrap">
-                <a href="mailto:muhammedshabeerm@hotmail.com" class="text-dark fs-5 text-decoration-none"><i
-                        class="bi bi-envelope-fill me-2 text-primary"></i> muhammedshabeerm@hotmail.com</a>
-                <a href="tel:+97430530362" class="text-dark fs-5 text-decoration-none"><i
-                        class="bi bi-telephone-fill me-2 text-primary"></i> +974 30530362</a>
-                <a href="https://wa.me/97430530362" target="_blank" class="text-success fs-5 text-decoration-none"><i
-                        class="bi bi-whatsapp me-2"></i> Chat on WhatsApp</a>
-                <a href="https://linkedin.com/in/muhammed-shabeer" target="_blank" class="text-primary fs-3"><i
-                        class="bi bi-linkedin"></i></a>
+                <a href="mailto:muhammedshabeerm@hotmail.com" class="contact-link">
+                    <i class="bi bi-envelope-fill text-primary me-2"></i> muhammedshabeerm@hotmail.com
+                </a>
+                <a href="tel:+97430530362" class="contact-link">
+                    <i class="bi bi-telephone-fill text-primary me-2"></i> +974 30530362
+                </a>
+                <a href="https://wa.me/97430530362" target="_blank" rel="noopener" class="contact-link text-success">
+                    <i class="bi bi-whatsapp me-2"></i> WhatsApp Consultation
+                </a>
+                <a href="https://linkedin.com/in/muhammed-shabeer" target="_blank" rel="noopener" class="contact-social" aria-label="LinkedIn">
+                    <i class="bi bi-linkedin fs-4"></i>
+                </a>
             </div>
         </div>
     </section>
@@ -741,11 +859,11 @@
     <!-- Footer -->
     <footer class="py-4 text-center">
         <div class="container">
-            <p class="mb-0">&copy; 2024 My Portfolio. All rights reserved.</p>
+            <p class="mb-0 text-white-50 small">&copy; <span id="current-year">2026</span> Muhammed Shabeer. All rights reserved. | Partner & CTO, Spectron Solutions Qatar</p>
         </div>
     </footer>
 
-    <!-- Bootstrap JS Bundle -->
+    <!-- Bootstrap 5.3.2 JS Bundle & Custom Logic -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="js/script.js"></script>
 </body>
